@@ -1,0 +1,361 @@
+date,time,home_team,away_team,gameweek,display
+2025-08-30,11:30,Chelsea,Fulham,3,GW3 | 2025-08-30 11:30 - Chelsea vs Fulham
+2025-08-30,14:00,Sunderland Afc,Brentford,3,GW3 | 2025-08-30 14:00 - Sunderland Afc vs Brentford
+2025-08-30,14:00,Manchester United,Burnley Fc,3,GW3 | 2025-08-30 14:00 - Manchester United vs Burnley Fc
+2025-08-30,14:00,Tottenham,Bournemouth,3,GW3 | 2025-08-30 14:00 - Tottenham vs Bournemouth
+2025-08-30,14:00,Wolves,Everton,3,GW3 | 2025-08-30 14:00 - Wolves vs Everton
+2025-08-30,16:30,Leeds United Fc,Newcastle,3,GW3 | 2025-08-30 16:30 - Leeds United Fc vs Newcastle
+2025-08-31,13:00,Brighton,Manchester City,3,GW3 | 2025-08-31 13:00 - Brighton vs Manchester City
+2025-08-31,13:00,Nottingham Forest,West Ham,3,GW3 | 2025-08-31 13:00 - Nottingham Forest vs West Ham
+2025-08-31,15:30,Liverpool,Arsenal,3,GW3 | 2025-08-31 15:30 - Liverpool vs Arsenal
+2025-08-31,18:00,Aston Villa,Crystal Palace,3,GW3 | 2025-08-31 18:00 - Aston Villa vs Crystal Palace
+2025-09-13,11:30,Arsenal,Nottingham Forest,4,GW4 | 2025-09-13 11:30 - Arsenal vs Nottingham Forest
+2025-09-13,14:00,Bournemouth,Brighton,4,GW4 | 2025-09-13 14:00 - Bournemouth vs Brighton
+2025-09-13,14:00,Crystal Palace,Sunderland Afc,4,GW4 | 2025-09-13 14:00 - Crystal Palace vs Sunderland Afc
+2025-09-13,14:00,Everton,Aston Villa,4,GW4 | 2025-09-13 14:00 - Everton vs Aston Villa
+2025-09-13,14:00,Fulham,Leeds United Fc,4,GW4 | 2025-09-13 14:00 - Fulham vs Leeds United Fc
+2025-09-13,14:00,Newcastle,Wolves,4,GW4 | 2025-09-13 14:00 - Newcastle vs Wolves
+2025-09-13,16:30,West Ham,Tottenham,4,GW4 | 2025-09-13 16:30 - West Ham vs Tottenham
+2025-09-13,19:00,Brentford,Chelsea,4,GW4 | 2025-09-13 19:00 - Brentford vs Chelsea
+2025-09-14,13:00,Burnley Fc,Liverpool,4,GW4 | 2025-09-14 13:00 - Burnley Fc vs Liverpool
+2025-09-14,15:30,Manchester City,Manchester United,4,GW4 | 2025-09-14 15:30 - Manchester City vs Manchester United
+2025-09-20,11:30,Liverpool,Everton,5,GW5 | 2025-09-20 11:30 - Liverpool vs Everton
+2025-09-20,14:00,Bournemouth,Newcastle,5,GW5 | 2025-09-20 14:00 - Bournemouth vs Newcastle
+2025-09-20,14:00,Brighton,Tottenham,5,GW5 | 2025-09-20 14:00 - Brighton vs Tottenham
+2025-09-20,14:00,Burnley Fc,Nottingham Forest,5,GW5 | 2025-09-20 14:00 - Burnley Fc vs Nottingham Forest
+2025-09-20,14:00,West Ham,Crystal Palace,5,GW5 | 2025-09-20 14:00 - West Ham vs Crystal Palace
+2025-09-20,14:00,Wolves,Leeds United Fc,5,GW5 | 2025-09-20 14:00 - Wolves vs Leeds United Fc
+2025-09-20,16:30,Manchester United,Chelsea,5,GW5 | 2025-09-20 16:30 - Manchester United vs Chelsea
+2025-09-20,19:00,Fulham,Brentford,5,GW5 | 2025-09-20 19:00 - Fulham vs Brentford
+2025-09-21,13:00,Sunderland Afc,Aston Villa,5,GW5 | 2025-09-21 13:00 - Sunderland Afc vs Aston Villa
+2025-09-21,15:30,Arsenal,Manchester City,5,GW5 | 2025-09-21 15:30 - Arsenal vs Manchester City
+2025-09-27,11:30,Brentford,Manchester United,6,GW6 | 2025-09-27 11:30 - Brentford vs Manchester United
+2025-09-27,14:00,Aston Villa,Fulham,6,GW6 | 2025-09-27 14:00 - Aston Villa vs Fulham
+2025-09-27,14:00,Crystal Palace,Liverpool,6,GW6 | 2025-09-27 14:00 - Crystal Palace vs Liverpool
+2025-09-27,14:00,Chelsea,Brighton,6,GW6 | 2025-09-27 14:00 - Chelsea vs Brighton
+2025-09-27,14:00,Leeds United Fc,Bournemouth,6,GW6 | 2025-09-27 14:00 - Leeds United Fc vs Bournemouth
+2025-09-27,14:00,Manchester City,Burnley Fc,6,GW6 | 2025-09-27 14:00 - Manchester City vs Burnley Fc
+2025-09-27,16:30,Nottingham Forest,Sunderland Afc,6,GW6 | 2025-09-27 16:30 - Nottingham Forest vs Sunderland Afc
+2025-09-28,13:00,Tottenham,Wolves,6,GW6 | 2025-09-28 13:00 - Tottenham vs Wolves
+2025-09-28,15:30,Newcastle,Arsenal,6,GW6 | 2025-09-28 15:30 - Newcastle vs Arsenal
+2025-09-29,19:00,Everton,West Ham,6,GW6 | 2025-09-29 19:00 - Everton vs West Ham
+2025-10-04,00:00,Bournemouth,Fulham,7,GW7 | 2025-10-04 00:00 - Bournemouth vs Fulham
+2025-10-04,00:00,Aston Villa,Burnley Fc,7,GW7 | 2025-10-04 00:00 - Aston Villa vs Burnley Fc
+2025-10-04,00:00,Arsenal,West Ham,7,GW7 | 2025-10-04 00:00 - Arsenal vs West Ham
+2025-10-04,00:00,Brentford,Manchester City,7,GW7 | 2025-10-04 00:00 - Brentford vs Manchester City
+2025-10-04,00:00,Chelsea,Liverpool,7,GW7 | 2025-10-04 00:00 - Chelsea vs Liverpool
+2025-10-04,00:00,Everton,Crystal Palace,7,GW7 | 2025-10-04 00:00 - Everton vs Crystal Palace
+2025-10-04,00:00,Leeds United Fc,Tottenham,7,GW7 | 2025-10-04 00:00 - Leeds United Fc vs Tottenham
+2025-10-04,00:00,Manchester United,Sunderland Afc,7,GW7 | 2025-10-04 00:00 - Manchester United vs Sunderland Afc
+2025-10-04,00:00,Newcastle,Nottingham Forest,7,GW7 | 2025-10-04 00:00 - Newcastle vs Nottingham Forest
+2025-10-04,00:00,Wolves,Brighton,7,GW7 | 2025-10-04 00:00 - Wolves vs Brighton
+2025-10-18,00:00,Brighton,Newcastle,8,GW8 | 2025-10-18 00:00 - Brighton vs Newcastle
+2025-10-18,00:00,Crystal Palace,Bournemouth,8,GW8 | 2025-10-18 00:00 - Crystal Palace vs Bournemouth
+2025-10-18,00:00,Burnley Fc,Leeds United Fc,8,GW8 | 2025-10-18 00:00 - Burnley Fc vs Leeds United Fc
+2025-10-18,00:00,Fulham,Arsenal,8,GW8 | 2025-10-18 00:00 - Fulham vs Arsenal
+2025-10-18,00:00,Liverpool,Manchester United,8,GW8 | 2025-10-18 00:00 - Liverpool vs Manchester United
+2025-10-18,00:00,Manchester City,Everton,8,GW8 | 2025-10-18 00:00 - Manchester City vs Everton
+2025-10-18,00:00,Nottingham Forest,Chelsea,8,GW8 | 2025-10-18 00:00 - Nottingham Forest vs Chelsea
+2025-10-18,00:00,Tottenham,Aston Villa,8,GW8 | 2025-10-18 00:00 - Tottenham vs Aston Villa
+2025-10-18,00:00,West Ham,Brentford,8,GW8 | 2025-10-18 00:00 - West Ham vs Brentford
+2025-10-18,00:00,Sunderland Afc,Wolves,8,GW8 | 2025-10-18 00:00 - Sunderland Afc vs Wolves
+2025-10-25,00:00,Bournemouth,Nottingham Forest,9,GW9 | 2025-10-25 00:00 - Bournemouth vs Nottingham Forest
+2025-10-25,00:00,Aston Villa,Manchester City,9,GW9 | 2025-10-25 00:00 - Aston Villa vs Manchester City
+2025-10-25,00:00,Arsenal,Crystal Palace,9,GW9 | 2025-10-25 00:00 - Arsenal vs Crystal Palace
+2025-10-25,00:00,Brentford,Liverpool,9,GW9 | 2025-10-25 00:00 - Brentford vs Liverpool
+2025-10-25,00:00,Chelsea,Sunderland Afc,9,GW9 | 2025-10-25 00:00 - Chelsea vs Sunderland Afc
+2025-10-25,00:00,Everton,Tottenham,9,GW9 | 2025-10-25 00:00 - Everton vs Tottenham
+2025-10-25,00:00,Leeds United Fc,West Ham,9,GW9 | 2025-10-25 00:00 - Leeds United Fc vs West Ham
+2025-10-25,00:00,Manchester United,Brighton,9,GW9 | 2025-10-25 00:00 - Manchester United vs Brighton
+2025-10-25,00:00,Newcastle,Fulham,9,GW9 | 2025-10-25 00:00 - Newcastle vs Fulham
+2025-10-25,00:00,Wolves,Burnley Fc,9,GW9 | 2025-10-25 00:00 - Wolves vs Burnley Fc
+2025-11-01,00:00,Sunderland Afc,Everton,10,GW10 | 2025-11-01 00:00 - Sunderland Afc vs Everton
+2025-11-01,00:00,Brighton,Leeds United Fc,10,GW10 | 2025-11-01 00:00 - Brighton vs Leeds United Fc
+2025-11-01,00:00,Crystal Palace,Brentford,10,GW10 | 2025-11-01 00:00 - Crystal Palace vs Brentford
+2025-11-01,00:00,Burnley Fc,Arsenal,10,GW10 | 2025-11-01 00:00 - Burnley Fc vs Arsenal
+2025-11-01,00:00,Fulham,Wolves,10,GW10 | 2025-11-01 00:00 - Fulham vs Wolves
+2025-11-01,00:00,Liverpool,Aston Villa,10,GW10 | 2025-11-01 00:00 - Liverpool vs Aston Villa
+2025-11-01,00:00,Manchester City,Bournemouth,10,GW10 | 2025-11-01 00:00 - Manchester City vs Bournemouth
+2025-11-01,00:00,Nottingham Forest,Manchester United,10,GW10 | 2025-11-01 00:00 - Nottingham Forest vs Manchester United
+2025-11-01,00:00,Tottenham,Chelsea,10,GW10 | 2025-11-01 00:00 - Tottenham vs Chelsea
+2025-11-01,00:00,West Ham,Newcastle,10,GW10 | 2025-11-01 00:00 - West Ham vs Newcastle
+2025-11-08,00:00,Sunderland Afc,Arsenal,11,GW11 | 2025-11-08 00:00 - Sunderland Afc vs Arsenal
+2025-11-08,00:00,Aston Villa,Bournemouth,11,GW11 | 2025-11-08 00:00 - Aston Villa vs Bournemouth
+2025-11-08,00:00,Crystal Palace,Brighton,11,GW11 | 2025-11-08 00:00 - Crystal Palace vs Brighton
+2025-11-08,00:00,Brentford,Newcastle,11,GW11 | 2025-11-08 00:00 - Brentford vs Newcastle
+2025-11-08,00:00,Chelsea,Wolves,11,GW11 | 2025-11-08 00:00 - Chelsea vs Wolves
+2025-11-08,00:00,Everton,Fulham,11,GW11 | 2025-11-08 00:00 - Everton vs Fulham
+2025-11-08,00:00,Manchester City,Liverpool,11,GW11 | 2025-11-08 00:00 - Manchester City vs Liverpool
+2025-11-08,00:00,Nottingham Forest,Leeds United Fc,11,GW11 | 2025-11-08 00:00 - Nottingham Forest vs Leeds United Fc
+2025-11-08,00:00,Tottenham,Manchester United,11,GW11 | 2025-11-08 00:00 - Tottenham vs Manchester United
+2025-11-08,00:00,West Ham,Burnley Fc,11,GW11 | 2025-11-08 00:00 - West Ham vs Burnley Fc
+2025-11-22,00:00,Bournemouth,West Ham,12,GW12 | 2025-11-22 00:00 - Bournemouth vs West Ham
+2025-11-22,00:00,Brighton,Brentford,12,GW12 | 2025-11-22 00:00 - Brighton vs Brentford
+2025-11-22,00:00,Arsenal,Tottenham,12,GW12 | 2025-11-22 00:00 - Arsenal vs Tottenham
+2025-11-22,00:00,Burnley Fc,Chelsea,12,GW12 | 2025-11-22 00:00 - Burnley Fc vs Chelsea
+2025-11-22,00:00,Fulham,Sunderland Afc,12,GW12 | 2025-11-22 00:00 - Fulham vs Sunderland Afc
+2025-11-22,00:00,Liverpool,Nottingham Forest,12,GW12 | 2025-11-22 00:00 - Liverpool vs Nottingham Forest
+2025-11-22,00:00,Leeds United Fc,Aston Villa,12,GW12 | 2025-11-22 00:00 - Leeds United Fc vs Aston Villa
+2025-11-22,00:00,Manchester United,Everton,12,GW12 | 2025-11-22 00:00 - Manchester United vs Everton
+2025-11-22,00:00,Newcastle,Manchester City,12,GW12 | 2025-11-22 00:00 - Newcastle vs Manchester City
+2025-11-22,00:00,Wolves,Crystal Palace,12,GW12 | 2025-11-22 00:00 - Wolves vs Crystal Palace
+2025-11-29,00:00,Sunderland Afc,Bournemouth,13,GW13 | 2025-11-29 00:00 - Sunderland Afc vs Bournemouth
+2025-11-29,00:00,Aston Villa,Wolves,13,GW13 | 2025-11-29 00:00 - Aston Villa vs Wolves
+2025-11-29,00:00,Crystal Palace,Manchester United,13,GW13 | 2025-11-29 00:00 - Crystal Palace vs Manchester United
+2025-11-29,00:00,Brentford,Burnley Fc,13,GW13 | 2025-11-29 00:00 - Brentford vs Burnley Fc
+2025-11-29,00:00,Chelsea,Arsenal,13,GW13 | 2025-11-29 00:00 - Chelsea vs Arsenal
+2025-11-29,00:00,Everton,Newcastle,13,GW13 | 2025-11-29 00:00 - Everton vs Newcastle
+2025-11-29,00:00,Manchester City,Leeds United Fc,13,GW13 | 2025-11-29 00:00 - Manchester City vs Leeds United Fc
+2025-11-29,00:00,Nottingham Forest,Brighton,13,GW13 | 2025-11-29 00:00 - Nottingham Forest vs Brighton
+2025-11-29,00:00,Tottenham,Fulham,13,GW13 | 2025-11-29 00:00 - Tottenham vs Fulham
+2025-11-29,00:00,West Ham,Liverpool,13,GW13 | 2025-11-29 00:00 - West Ham vs Liverpool
+2025-12-03,00:00,Bournemouth,Everton,14,GW14 | 2025-12-03 00:00 - Bournemouth vs Everton
+2025-12-03,00:00,Brighton,Aston Villa,14,GW14 | 2025-12-03 00:00 - Brighton vs Aston Villa
+2025-12-03,00:00,Arsenal,Brentford,14,GW14 | 2025-12-03 00:00 - Arsenal vs Brentford
+2025-12-03,00:00,Burnley Fc,Crystal Palace,14,GW14 | 2025-12-03 00:00 - Burnley Fc vs Crystal Palace
+2025-12-03,00:00,Fulham,Manchester City,14,GW14 | 2025-12-03 00:00 - Fulham vs Manchester City
+2025-12-03,00:00,Liverpool,Sunderland Afc,14,GW14 | 2025-12-03 00:00 - Liverpool vs Sunderland Afc
+2025-12-03,00:00,Leeds United Fc,Chelsea,14,GW14 | 2025-12-03 00:00 - Leeds United Fc vs Chelsea
+2025-12-03,00:00,Manchester United,West Ham,14,GW14 | 2025-12-03 00:00 - Manchester United vs West Ham
+2025-12-03,00:00,Newcastle,Tottenham,14,GW14 | 2025-12-03 00:00 - Newcastle vs Tottenham
+2025-12-03,00:00,Wolves,Nottingham Forest,14,GW14 | 2025-12-03 00:00 - Wolves vs Nottingham Forest
+2025-12-06,00:00,Bournemouth,Chelsea,15,GW15 | 2025-12-06 00:00 - Bournemouth vs Chelsea
+2025-12-06,00:00,Aston Villa,Arsenal,15,GW15 | 2025-12-06 00:00 - Aston Villa vs Arsenal
+2025-12-06,00:00,Brighton,West Ham,15,GW15 | 2025-12-06 00:00 - Brighton vs West Ham
+2025-12-06,00:00,Everton,Nottingham Forest,15,GW15 | 2025-12-06 00:00 - Everton vs Nottingham Forest
+2025-12-06,00:00,Fulham,Crystal Palace,15,GW15 | 2025-12-06 00:00 - Fulham vs Crystal Palace
+2025-12-06,00:00,Leeds United Fc,Liverpool,15,GW15 | 2025-12-06 00:00 - Leeds United Fc vs Liverpool
+2025-12-06,00:00,Manchester City,Sunderland Afc,15,GW15 | 2025-12-06 00:00 - Manchester City vs Sunderland Afc
+2025-12-06,00:00,Newcastle,Burnley Fc,15,GW15 | 2025-12-06 00:00 - Newcastle vs Burnley Fc
+2025-12-06,00:00,Tottenham,Brentford,15,GW15 | 2025-12-06 00:00 - Tottenham vs Brentford
+2025-12-06,00:00,Wolves,Manchester United,15,GW15 | 2025-12-06 00:00 - Wolves vs Manchester United
+2025-12-13,00:00,Sunderland Afc,Newcastle,16,GW16 | 2025-12-13 00:00 - Sunderland Afc vs Newcastle
+2025-12-13,00:00,Crystal Palace,Manchester City,16,GW16 | 2025-12-13 00:00 - Crystal Palace vs Manchester City
+2025-12-13,00:00,Arsenal,Wolves,16,GW16 | 2025-12-13 00:00 - Arsenal vs Wolves
+2025-12-13,00:00,Brentford,Leeds United Fc,16,GW16 | 2025-12-13 00:00 - Brentford vs Leeds United Fc
+2025-12-13,00:00,Burnley Fc,Fulham,16,GW16 | 2025-12-13 00:00 - Burnley Fc vs Fulham
+2025-12-13,00:00,Chelsea,Everton,16,GW16 | 2025-12-13 00:00 - Chelsea vs Everton
+2025-12-13,00:00,Liverpool,Brighton,16,GW16 | 2025-12-13 00:00 - Liverpool vs Brighton
+2025-12-13,00:00,Manchester United,Bournemouth,16,GW16 | 2025-12-13 00:00 - Manchester United vs Bournemouth
+2025-12-13,00:00,Nottingham Forest,Tottenham,16,GW16 | 2025-12-13 00:00 - Nottingham Forest vs Tottenham
+2025-12-13,00:00,West Ham,Aston Villa,16,GW16 | 2025-12-13 00:00 - West Ham vs Aston Villa
+2025-12-20,00:00,Bournemouth,Burnley Fc,17,GW17 | 2025-12-20 00:00 - Bournemouth vs Burnley Fc
+2025-12-20,00:00,Aston Villa,Manchester United,17,GW17 | 2025-12-20 00:00 - Aston Villa vs Manchester United
+2025-12-20,00:00,Brighton,Sunderland Afc,17,GW17 | 2025-12-20 00:00 - Brighton vs Sunderland Afc
+2025-12-20,00:00,Everton,Arsenal,17,GW17 | 2025-12-20 00:00 - Everton vs Arsenal
+2025-12-20,00:00,Fulham,Nottingham Forest,17,GW17 | 2025-12-20 00:00 - Fulham vs Nottingham Forest
+2025-12-20,00:00,Leeds United Fc,Crystal Palace,17,GW17 | 2025-12-20 00:00 - Leeds United Fc vs Crystal Palace
+2025-12-20,00:00,Manchester City,West Ham,17,GW17 | 2025-12-20 00:00 - Manchester City vs West Ham
+2025-12-20,00:00,Newcastle,Chelsea,17,GW17 | 2025-12-20 00:00 - Newcastle vs Chelsea
+2025-12-20,00:00,Tottenham,Liverpool,17,GW17 | 2025-12-20 00:00 - Tottenham vs Liverpool
+2025-12-20,00:00,Wolves,Brentford,17,GW17 | 2025-12-20 00:00 - Wolves vs Brentford
+2025-12-27,00:00,Sunderland Afc,Leeds United Fc,18,GW18 | 2025-12-27 00:00 - Sunderland Afc vs Leeds United Fc
+2025-12-27,00:00,Crystal Palace,Tottenham,18,GW18 | 2025-12-27 00:00 - Crystal Palace vs Tottenham
+2025-12-27,00:00,Arsenal,Brighton,18,GW18 | 2025-12-27 00:00 - Arsenal vs Brighton
+2025-12-27,00:00,Brentford,Bournemouth,18,GW18 | 2025-12-27 00:00 - Brentford vs Bournemouth
+2025-12-27,00:00,Burnley Fc,Everton,18,GW18 | 2025-12-27 00:00 - Burnley Fc vs Everton
+2025-12-27,00:00,Chelsea,Aston Villa,18,GW18 | 2025-12-27 00:00 - Chelsea vs Aston Villa
+2025-12-27,00:00,Liverpool,Wolves,18,GW18 | 2025-12-27 00:00 - Liverpool vs Wolves
+2025-12-27,00:00,Manchester United,Newcastle,18,GW18 | 2025-12-27 00:00 - Manchester United vs Newcastle
+2025-12-27,00:00,Nottingham Forest,Manchester City,18,GW18 | 2025-12-27 00:00 - Nottingham Forest vs Manchester City
+2025-12-27,00:00,West Ham,Fulham,18,GW18 | 2025-12-27 00:00 - West Ham vs Fulham
+2025-12-30,00:00,Sunderland Afc,Manchester City,19,GW19 | 2025-12-30 00:00 - Sunderland Afc vs Manchester City
+2025-12-30,00:00,Crystal Palace,Fulham,19,GW19 | 2025-12-30 00:00 - Crystal Palace vs Fulham
+2025-12-30,00:00,Arsenal,Aston Villa,19,GW19 | 2025-12-30 00:00 - Arsenal vs Aston Villa
+2025-12-30,00:00,Brentford,Tottenham,19,GW19 | 2025-12-30 00:00 - Brentford vs Tottenham
+2025-12-30,00:00,Burnley Fc,Newcastle,19,GW19 | 2025-12-30 00:00 - Burnley Fc vs Newcastle
+2025-12-30,00:00,Chelsea,Bournemouth,19,GW19 | 2025-12-30 00:00 - Chelsea vs Bournemouth
+2025-12-30,00:00,Liverpool,Leeds United Fc,19,GW19 | 2025-12-30 00:00 - Liverpool vs Leeds United Fc
+2025-12-30,00:00,Manchester United,Wolves,19,GW19 | 2025-12-30 00:00 - Manchester United vs Wolves
+2025-12-30,00:00,Nottingham Forest,Everton,19,GW19 | 2025-12-30 00:00 - Nottingham Forest vs Everton
+2025-12-30,00:00,West Ham,Brighton,19,GW19 | 2025-12-30 00:00 - West Ham vs Brighton
+2026-01-03,00:00,Bournemouth,Arsenal,20,GW20 | 2026-01-03 00:00 - Bournemouth vs Arsenal
+2026-01-03,00:00,Aston Villa,Nottingham Forest,20,GW20 | 2026-01-03 00:00 - Aston Villa vs Nottingham Forest
+2026-01-03,00:00,Brighton,Burnley Fc,20,GW20 | 2026-01-03 00:00 - Brighton vs Burnley Fc
+2026-01-03,00:00,Everton,Brentford,20,GW20 | 2026-01-03 00:00 - Everton vs Brentford
+2026-01-03,00:00,Fulham,Liverpool,20,GW20 | 2026-01-03 00:00 - Fulham vs Liverpool
+2026-01-03,00:00,Leeds United Fc,Manchester United,20,GW20 | 2026-01-03 00:00 - Leeds United Fc vs Manchester United
+2026-01-03,00:00,Manchester City,Chelsea,20,GW20 | 2026-01-03 00:00 - Manchester City vs Chelsea
+2026-01-03,00:00,Newcastle,Crystal Palace,20,GW20 | 2026-01-03 00:00 - Newcastle vs Crystal Palace
+2026-01-03,00:00,Tottenham,Sunderland Afc,20,GW20 | 2026-01-03 00:00 - Tottenham vs Sunderland Afc
+2026-01-03,00:00,Wolves,West Ham,20,GW20 | 2026-01-03 00:00 - Wolves vs West Ham
+2026-01-07,00:00,Bournemouth,Tottenham,21,GW21 | 2026-01-07 00:00 - Bournemouth vs Tottenham
+2026-01-07,00:00,Crystal Palace,Aston Villa,21,GW21 | 2026-01-07 00:00 - Crystal Palace vs Aston Villa
+2026-01-07,00:00,Arsenal,Liverpool,21,GW21 | 2026-01-07 00:00 - Arsenal vs Liverpool
+2026-01-07,00:00,Brentford,Sunderland Afc,21,GW21 | 2026-01-07 00:00 - Brentford vs Sunderland Afc
+2026-01-07,00:00,Burnley Fc,Manchester United,21,GW21 | 2026-01-07 00:00 - Burnley Fc vs Manchester United
+2026-01-07,00:00,Everton,Wolves,21,GW21 | 2026-01-07 00:00 - Everton vs Wolves
+2026-01-07,00:00,Fulham,Chelsea,21,GW21 | 2026-01-07 00:00 - Fulham vs Chelsea
+2026-01-07,00:00,Manchester City,Brighton,21,GW21 | 2026-01-07 00:00 - Manchester City vs Brighton
+2026-01-07,00:00,Newcastle,Leeds United Fc,21,GW21 | 2026-01-07 00:00 - Newcastle vs Leeds United Fc
+2026-01-07,00:00,West Ham,Nottingham Forest,21,GW21 | 2026-01-07 00:00 - West Ham vs Nottingham Forest
+2026-01-17,00:00,Sunderland Afc,Crystal Palace,22,GW22 | 2026-01-17 00:00 - Sunderland Afc vs Crystal Palace
+2026-01-17,00:00,Aston Villa,Everton,22,GW22 | 2026-01-17 00:00 - Aston Villa vs Everton
+2026-01-17,00:00,Brighton,Bournemouth,22,GW22 | 2026-01-17 00:00 - Brighton vs Bournemouth
+2026-01-17,00:00,Chelsea,Brentford,22,GW22 | 2026-01-17 00:00 - Chelsea vs Brentford
+2026-01-17,00:00,Liverpool,Burnley Fc,22,GW22 | 2026-01-17 00:00 - Liverpool vs Burnley Fc
+2026-01-17,00:00,Leeds United Fc,Fulham,22,GW22 | 2026-01-17 00:00 - Leeds United Fc vs Fulham
+2026-01-17,00:00,Manchester United,Manchester City,22,GW22 | 2026-01-17 00:00 - Manchester United vs Manchester City
+2026-01-17,00:00,Nottingham Forest,Arsenal,22,GW22 | 2026-01-17 00:00 - Nottingham Forest vs Arsenal
+2026-01-17,00:00,Tottenham,West Ham,22,GW22 | 2026-01-17 00:00 - Tottenham vs West Ham
+2026-01-17,00:00,Wolves,Newcastle,22,GW22 | 2026-01-17 00:00 - Wolves vs Newcastle
+2026-01-24,00:00,Bournemouth,Liverpool,23,GW23 | 2026-01-24 00:00 - Bournemouth vs Liverpool
+2026-01-24,00:00,Crystal Palace,Chelsea,23,GW23 | 2026-01-24 00:00 - Crystal Palace vs Chelsea
+2026-01-24,00:00,Arsenal,Manchester United,23,GW23 | 2026-01-24 00:00 - Arsenal vs Manchester United
+2026-01-24,00:00,Brentford,Nottingham Forest,23,GW23 | 2026-01-24 00:00 - Brentford vs Nottingham Forest
+2026-01-24,00:00,Burnley Fc,Tottenham,23,GW23 | 2026-01-24 00:00 - Burnley Fc vs Tottenham
+2026-01-24,00:00,Everton,Leeds United Fc,23,GW23 | 2026-01-24 00:00 - Everton vs Leeds United Fc
+2026-01-24,00:00,Fulham,Brighton,23,GW23 | 2026-01-24 00:00 - Fulham vs Brighton
+2026-01-24,00:00,Manchester City,Wolves,23,GW23 | 2026-01-24 00:00 - Manchester City vs Wolves
+2026-01-24,00:00,Newcastle,Aston Villa,23,GW23 | 2026-01-24 00:00 - Newcastle vs Aston Villa
+2026-01-24,00:00,West Ham,Sunderland Afc,23,GW23 | 2026-01-24 00:00 - West Ham vs Sunderland Afc
+2026-01-31,00:00,Sunderland Afc,Burnley Fc,24,GW24 | 2026-01-31 00:00 - Sunderland Afc vs Burnley Fc
+2026-01-31,00:00,Aston Villa,Brentford,24,GW24 | 2026-01-31 00:00 - Aston Villa vs Brentford
+2026-01-31,00:00,Brighton,Everton,24,GW24 | 2026-01-31 00:00 - Brighton vs Everton
+2026-01-31,00:00,Chelsea,West Ham,24,GW24 | 2026-01-31 00:00 - Chelsea vs West Ham
+2026-01-31,00:00,Liverpool,Newcastle,24,GW24 | 2026-01-31 00:00 - Liverpool vs Newcastle
+2026-01-31,00:00,Leeds United Fc,Arsenal,24,GW24 | 2026-01-31 00:00 - Leeds United Fc vs Arsenal
+2026-01-31,00:00,Manchester United,Fulham,24,GW24 | 2026-01-31 00:00 - Manchester United vs Fulham
+2026-01-31,00:00,Nottingham Forest,Crystal Palace,24,GW24 | 2026-01-31 00:00 - Nottingham Forest vs Crystal Palace
+2026-01-31,00:00,Tottenham,Manchester City,24,GW24 | 2026-01-31 00:00 - Tottenham vs Manchester City
+2026-01-31,00:00,Wolves,Bournemouth,24,GW24 | 2026-01-31 00:00 - Wolves vs Bournemouth
+2026-02-07,00:00,Bournemouth,Aston Villa,25,GW25 | 2026-02-07 00:00 - Bournemouth vs Aston Villa
+2026-02-07,00:00,Brighton,Crystal Palace,25,GW25 | 2026-02-07 00:00 - Brighton vs Crystal Palace
+2026-02-07,00:00,Arsenal,Sunderland Afc,25,GW25 | 2026-02-07 00:00 - Arsenal vs Sunderland Afc
+2026-02-07,00:00,Burnley Fc,West Ham,25,GW25 | 2026-02-07 00:00 - Burnley Fc vs West Ham
+2026-02-07,00:00,Fulham,Everton,25,GW25 | 2026-02-07 00:00 - Fulham vs Everton
+2026-02-07,00:00,Liverpool,Manchester City,25,GW25 | 2026-02-07 00:00 - Liverpool vs Manchester City
+2026-02-07,00:00,Leeds United Fc,Nottingham Forest,25,GW25 | 2026-02-07 00:00 - Leeds United Fc vs Nottingham Forest
+2026-02-07,00:00,Manchester United,Tottenham,25,GW25 | 2026-02-07 00:00 - Manchester United vs Tottenham
+2026-02-07,00:00,Newcastle,Brentford,25,GW25 | 2026-02-07 00:00 - Newcastle vs Brentford
+2026-02-07,00:00,Wolves,Chelsea,25,GW25 | 2026-02-07 00:00 - Wolves vs Chelsea
+2026-02-11,00:00,Sunderland Afc,Liverpool,26,GW26 | 2026-02-11 00:00 - Sunderland Afc vs Liverpool
+2026-02-11,00:00,Aston Villa,Brighton,26,GW26 | 2026-02-11 00:00 - Aston Villa vs Brighton
+2026-02-11,00:00,Crystal Palace,Burnley Fc,26,GW26 | 2026-02-11 00:00 - Crystal Palace vs Burnley Fc
+2026-02-11,00:00,Brentford,Arsenal,26,GW26 | 2026-02-11 00:00 - Brentford vs Arsenal
+2026-02-11,00:00,Chelsea,Leeds United Fc,26,GW26 | 2026-02-11 00:00 - Chelsea vs Leeds United Fc
+2026-02-11,00:00,Everton,Bournemouth,26,GW26 | 2026-02-11 00:00 - Everton vs Bournemouth
+2026-02-11,00:00,Manchester City,Fulham,26,GW26 | 2026-02-11 00:00 - Manchester City vs Fulham
+2026-02-11,00:00,Nottingham Forest,Wolves,26,GW26 | 2026-02-11 00:00 - Nottingham Forest vs Wolves
+2026-02-11,00:00,Tottenham,Newcastle,26,GW26 | 2026-02-11 00:00 - Tottenham vs Newcastle
+2026-02-11,00:00,West Ham,Manchester United,26,GW26 | 2026-02-11 00:00 - West Ham vs Manchester United
+2026-02-21,00:00,Sunderland Afc,Fulham,27,GW27 | 2026-02-21 00:00 - Sunderland Afc vs Fulham
+2026-02-21,00:00,Aston Villa,Leeds United Fc,27,GW27 | 2026-02-21 00:00 - Aston Villa vs Leeds United Fc
+2026-02-21,00:00,Crystal Palace,Wolves,27,GW27 | 2026-02-21 00:00 - Crystal Palace vs Wolves
+2026-02-21,00:00,Brentford,Brighton,27,GW27 | 2026-02-21 00:00 - Brentford vs Brighton
+2026-02-21,00:00,Chelsea,Burnley Fc,27,GW27 | 2026-02-21 00:00 - Chelsea vs Burnley Fc
+2026-02-21,00:00,Everton,Manchester United,27,GW27 | 2026-02-21 00:00 - Everton vs Manchester United
+2026-02-21,00:00,Manchester City,Newcastle,27,GW27 | 2026-02-21 00:00 - Manchester City vs Newcastle
+2026-02-21,00:00,Nottingham Forest,Liverpool,27,GW27 | 2026-02-21 00:00 - Nottingham Forest vs Liverpool
+2026-02-21,00:00,Tottenham,Arsenal,27,GW27 | 2026-02-21 00:00 - Tottenham vs Arsenal
+2026-02-21,00:00,West Ham,Bournemouth,27,GW27 | 2026-02-21 00:00 - West Ham vs Bournemouth
+2026-02-28,00:00,Bournemouth,Sunderland Afc,28,GW28 | 2026-02-28 00:00 - Bournemouth vs Sunderland Afc
+2026-02-28,00:00,Brighton,Nottingham Forest,28,GW28 | 2026-02-28 00:00 - Brighton vs Nottingham Forest
+2026-02-28,00:00,Arsenal,Chelsea,28,GW28 | 2026-02-28 00:00 - Arsenal vs Chelsea
+2026-02-28,00:00,Burnley Fc,Brentford,28,GW28 | 2026-02-28 00:00 - Burnley Fc vs Brentford
+2026-02-28,00:00,Fulham,Tottenham,28,GW28 | 2026-02-28 00:00 - Fulham vs Tottenham
+2026-02-28,00:00,Liverpool,West Ham,28,GW28 | 2026-02-28 00:00 - Liverpool vs West Ham
+2026-02-28,00:00,Leeds United Fc,Manchester City,28,GW28 | 2026-02-28 00:00 - Leeds United Fc vs Manchester City
+2026-02-28,00:00,Manchester United,Crystal Palace,28,GW28 | 2026-02-28 00:00 - Manchester United vs Crystal Palace
+2026-02-28,00:00,Newcastle,Everton,28,GW28 | 2026-02-28 00:00 - Newcastle vs Everton
+2026-02-28,00:00,Wolves,Aston Villa,28,GW28 | 2026-02-28 00:00 - Wolves vs Aston Villa
+2026-03-04,00:00,Bournemouth,Brentford,29,GW29 | 2026-03-04 00:00 - Bournemouth vs Brentford
+2026-03-04,00:00,Aston Villa,Chelsea,29,GW29 | 2026-03-04 00:00 - Aston Villa vs Chelsea
+2026-03-04,00:00,Brighton,Arsenal,29,GW29 | 2026-03-04 00:00 - Brighton vs Arsenal
+2026-03-04,00:00,Everton,Burnley Fc,29,GW29 | 2026-03-04 00:00 - Everton vs Burnley Fc
+2026-03-04,00:00,Fulham,West Ham,29,GW29 | 2026-03-04 00:00 - Fulham vs West Ham
+2026-03-04,00:00,Leeds United Fc,Sunderland Afc,29,GW29 | 2026-03-04 00:00 - Leeds United Fc vs Sunderland Afc
+2026-03-04,00:00,Manchester City,Nottingham Forest,29,GW29 | 2026-03-04 00:00 - Manchester City vs Nottingham Forest
+2026-03-04,00:00,Newcastle,Manchester United,29,GW29 | 2026-03-04 00:00 - Newcastle vs Manchester United
+2026-03-04,00:00,Tottenham,Crystal Palace,29,GW29 | 2026-03-04 00:00 - Tottenham vs Crystal Palace
+2026-03-04,00:00,Wolves,Liverpool,29,GW29 | 2026-03-04 00:00 - Wolves vs Liverpool
+2026-03-14,00:00,Sunderland Afc,Brighton,30,GW30 | 2026-03-14 00:00 - Sunderland Afc vs Brighton
+2026-03-14,00:00,Crystal Palace,Leeds United Fc,30,GW30 | 2026-03-14 00:00 - Crystal Palace vs Leeds United Fc
+2026-03-14,00:00,Arsenal,Everton,30,GW30 | 2026-03-14 00:00 - Arsenal vs Everton
+2026-03-14,00:00,Brentford,Wolves,30,GW30 | 2026-03-14 00:00 - Brentford vs Wolves
+2026-03-14,00:00,Burnley Fc,Bournemouth,30,GW30 | 2026-03-14 00:00 - Burnley Fc vs Bournemouth
+2026-03-14,00:00,Chelsea,Newcastle,30,GW30 | 2026-03-14 00:00 - Chelsea vs Newcastle
+2026-03-14,00:00,Liverpool,Tottenham,30,GW30 | 2026-03-14 00:00 - Liverpool vs Tottenham
+2026-03-14,00:00,Manchester United,Aston Villa,30,GW30 | 2026-03-14 00:00 - Manchester United vs Aston Villa
+2026-03-14,00:00,Nottingham Forest,Fulham,30,GW30 | 2026-03-14 00:00 - Nottingham Forest vs Fulham
+2026-03-14,00:00,West Ham,Manchester City,30,GW30 | 2026-03-14 00:00 - West Ham vs Manchester City
+2026-03-21,00:00,Bournemouth,Manchester United,31,GW31 | 2026-03-21 00:00 - Bournemouth vs Manchester United
+2026-03-21,00:00,Aston Villa,West Ham,31,GW31 | 2026-03-21 00:00 - Aston Villa vs West Ham
+2026-03-21,00:00,Brighton,Liverpool,31,GW31 | 2026-03-21 00:00 - Brighton vs Liverpool
+2026-03-21,00:00,Everton,Chelsea,31,GW31 | 2026-03-21 00:00 - Everton vs Chelsea
+2026-03-21,00:00,Fulham,Burnley Fc,31,GW31 | 2026-03-21 00:00 - Fulham vs Burnley Fc
+2026-03-21,00:00,Leeds United Fc,Brentford,31,GW31 | 2026-03-21 00:00 - Leeds United Fc vs Brentford
+2026-03-21,00:00,Manchester City,Crystal Palace,31,GW31 | 2026-03-21 00:00 - Manchester City vs Crystal Palace
+2026-03-21,00:00,Newcastle,Sunderland Afc,31,GW31 | 2026-03-21 00:00 - Newcastle vs Sunderland Afc
+2026-03-21,00:00,Tottenham,Nottingham Forest,31,GW31 | 2026-03-21 00:00 - Tottenham vs Nottingham Forest
+2026-03-21,00:00,Wolves,Arsenal,31,GW31 | 2026-03-21 00:00 - Wolves vs Arsenal
+2026-04-11,00:00,Sunderland Afc,Tottenham,32,GW32 | 2026-04-11 00:00 - Sunderland Afc vs Tottenham
+2026-04-11,00:00,Crystal Palace,Newcastle,32,GW32 | 2026-04-11 00:00 - Crystal Palace vs Newcastle
+2026-04-11,00:00,Arsenal,Bournemouth,32,GW32 | 2026-04-11 00:00 - Arsenal vs Bournemouth
+2026-04-11,00:00,Brentford,Everton,32,GW32 | 2026-04-11 00:00 - Brentford vs Everton
+2026-04-11,00:00,Burnley Fc,Brighton,32,GW32 | 2026-04-11 00:00 - Burnley Fc vs Brighton
+2026-04-11,00:00,Chelsea,Manchester City,32,GW32 | 2026-04-11 00:00 - Chelsea vs Manchester City
+2026-04-11,00:00,Liverpool,Fulham,32,GW32 | 2026-04-11 00:00 - Liverpool vs Fulham
+2026-04-11,00:00,Manchester United,Leeds United Fc,32,GW32 | 2026-04-11 00:00 - Manchester United vs Leeds United Fc
+2026-04-11,00:00,Nottingham Forest,Aston Villa,32,GW32 | 2026-04-11 00:00 - Nottingham Forest vs Aston Villa
+2026-04-11,00:00,West Ham,Wolves,32,GW32 | 2026-04-11 00:00 - West Ham vs Wolves
+2026-04-18,00:00,Newcastle,Bournemouth,33,GW33 | 2026-04-18 00:00 - Newcastle vs Bournemouth
+2026-04-18,00:00,Nottingham Forest,Burnley Fc,33,GW33 | 2026-04-18 00:00 - Nottingham Forest vs Burnley Fc
+2026-04-18,00:00,Tottenham,Brighton,33,GW33 | 2026-04-18 00:00 - Tottenham vs Brighton
+2026-04-18,00:00,Aston Villa,Sunderland Afc,33,GW33 | 2026-04-18 00:00 - Aston Villa vs Sunderland Afc
+2026-04-18,00:00,Crystal Palace,West Ham,33,GW33 | 2026-04-18 00:00 - Crystal Palace vs West Ham
+2026-04-18,00:00,Brentford,Fulham,33,GW33 | 2026-04-18 00:00 - Brentford vs Fulham
+2026-04-18,00:00,Chelsea,Manchester United,33,GW33 | 2026-04-18 00:00 - Chelsea vs Manchester United
+2026-04-18,00:00,Everton,Liverpool,33,GW33 | 2026-04-18 00:00 - Everton vs Liverpool
+2026-04-18,00:00,Leeds United Fc,Wolves,33,GW33 | 2026-04-18 00:00 - Leeds United Fc vs Wolves
+2026-04-18,00:00,Manchester City,Arsenal,33,GW33 | 2026-04-18 00:00 - Manchester City vs Arsenal
+2026-04-25,00:00,Bournemouth,Leeds United Fc,34,GW34 | 2026-04-25 00:00 - Bournemouth vs Leeds United Fc
+2026-04-25,00:00,Sunderland Afc,Nottingham Forest,34,GW34 | 2026-04-25 00:00 - Sunderland Afc vs Nottingham Forest
+2026-04-25,00:00,Brighton,Chelsea,34,GW34 | 2026-04-25 00:00 - Brighton vs Chelsea
+2026-04-25,00:00,Arsenal,Newcastle,34,GW34 | 2026-04-25 00:00 - Arsenal vs Newcastle
+2026-04-25,00:00,Burnley Fc,Manchester City,34,GW34 | 2026-04-25 00:00 - Burnley Fc vs Manchester City
+2026-04-25,00:00,Fulham,Aston Villa,34,GW34 | 2026-04-25 00:00 - Fulham vs Aston Villa
+2026-04-25,00:00,Liverpool,Crystal Palace,34,GW34 | 2026-04-25 00:00 - Liverpool vs Crystal Palace
+2026-04-25,00:00,Manchester United,Brentford,34,GW34 | 2026-04-25 00:00 - Manchester United vs Brentford
+2026-04-25,00:00,West Ham,Everton,34,GW34 | 2026-04-25 00:00 - West Ham vs Everton
+2026-04-25,00:00,Wolves,Tottenham,34,GW34 | 2026-04-25 00:00 - Wolves vs Tottenham
+2026-05-02,00:00,Bournemouth,Crystal Palace,35,GW35 | 2026-05-02 00:00 - Bournemouth vs Crystal Palace
+2026-05-02,00:00,Aston Villa,Tottenham,35,GW35 | 2026-05-02 00:00 - Aston Villa vs Tottenham
+2026-05-02,00:00,Arsenal,Fulham,35,GW35 | 2026-05-02 00:00 - Arsenal vs Fulham
+2026-05-02,00:00,Brentford,West Ham,35,GW35 | 2026-05-02 00:00 - Brentford vs West Ham
+2026-05-02,00:00,Chelsea,Nottingham Forest,35,GW35 | 2026-05-02 00:00 - Chelsea vs Nottingham Forest
+2026-05-02,00:00,Everton,Manchester City,35,GW35 | 2026-05-02 00:00 - Everton vs Manchester City
+2026-05-02,00:00,Leeds United Fc,Burnley Fc,35,GW35 | 2026-05-02 00:00 - Leeds United Fc vs Burnley Fc
+2026-05-02,00:00,Manchester United,Liverpool,35,GW35 | 2026-05-02 00:00 - Manchester United vs Liverpool
+2026-05-02,00:00,Newcastle,Brighton,35,GW35 | 2026-05-02 00:00 - Newcastle vs Brighton
+2026-05-02,00:00,Wolves,Sunderland Afc,35,GW35 | 2026-05-02 00:00 - Wolves vs Sunderland Afc
+2026-05-09,00:00,Sunderland Afc,Manchester United,36,GW36 | 2026-05-09 00:00 - Sunderland Afc vs Manchester United
+2026-05-09,00:00,Brighton,Wolves,36,GW36 | 2026-05-09 00:00 - Brighton vs Wolves
+2026-05-09,00:00,Crystal Palace,Everton,36,GW36 | 2026-05-09 00:00 - Crystal Palace vs Everton
+2026-05-09,00:00,Burnley Fc,Aston Villa,36,GW36 | 2026-05-09 00:00 - Burnley Fc vs Aston Villa
+2026-05-09,00:00,Fulham,Bournemouth,36,GW36 | 2026-05-09 00:00 - Fulham vs Bournemouth
+2026-05-09,00:00,Liverpool,Chelsea,36,GW36 | 2026-05-09 00:00 - Liverpool vs Chelsea
+2026-05-09,00:00,Manchester City,Brentford,36,GW36 | 2026-05-09 00:00 - Manchester City vs Brentford
+2026-05-09,00:00,Nottingham Forest,Newcastle,36,GW36 | 2026-05-09 00:00 - Nottingham Forest vs Newcastle
+2026-05-09,00:00,Tottenham,Leeds United Fc,36,GW36 | 2026-05-09 00:00 - Tottenham vs Leeds United Fc
+2026-05-09,00:00,West Ham,Arsenal,36,GW36 | 2026-05-09 00:00 - West Ham vs Arsenal
+2026-05-17,00:00,Bournemouth,Manchester City,37,GW37 | 2026-05-17 00:00 - Bournemouth vs Manchester City
+2026-05-17,00:00,Aston Villa,Liverpool,37,GW37 | 2026-05-17 00:00 - Aston Villa vs Liverpool
+2026-05-17,00:00,Arsenal,Burnley Fc,37,GW37 | 2026-05-17 00:00 - Arsenal vs Burnley Fc
+2026-05-17,00:00,Brentford,Crystal Palace,37,GW37 | 2026-05-17 00:00 - Brentford vs Crystal Palace
+2026-05-17,00:00,Chelsea,Tottenham,37,GW37 | 2026-05-17 00:00 - Chelsea vs Tottenham
+2026-05-17,00:00,Everton,Sunderland Afc,37,GW37 | 2026-05-17 00:00 - Everton vs Sunderland Afc
+2026-05-17,00:00,Leeds United Fc,Brighton,37,GW37 | 2026-05-17 00:00 - Leeds United Fc vs Brighton
+2026-05-17,00:00,Manchester United,Nottingham Forest,37,GW37 | 2026-05-17 00:00 - Manchester United vs Nottingham Forest
+2026-05-17,00:00,Newcastle,West Ham,37,GW37 | 2026-05-17 00:00 - Newcastle vs West Ham
+2026-05-17,00:00,Wolves,Fulham,37,GW37 | 2026-05-17 00:00 - Wolves vs Fulham
+2026-05-24,00:00,Sunderland Afc,Chelsea,38,GW38 | 2026-05-24 00:00 - Sunderland Afc vs Chelsea
+2026-05-24,00:00,Brighton,Manchester United,38,GW38 | 2026-05-24 00:00 - Brighton vs Manchester United
+2026-05-24,00:00,Crystal Palace,Arsenal,38,GW38 | 2026-05-24 00:00 - Crystal Palace vs Arsenal
+2026-05-24,00:00,Burnley Fc,Wolves,38,GW38 | 2026-05-24 00:00 - Burnley Fc vs Wolves
+2026-05-24,00:00,Fulham,Newcastle,38,GW38 | 2026-05-24 00:00 - Fulham vs Newcastle
+2026-05-24,00:00,Liverpool,Brentford,38,GW38 | 2026-05-24 00:00 - Liverpool vs Brentford
+2026-05-24,00:00,Manchester City,Aston Villa,38,GW38 | 2026-05-24 00:00 - Manchester City vs Aston Villa
+2026-05-24,00:00,Nottingham Forest,Bournemouth,38,GW38 | 2026-05-24 00:00 - Nottingham Forest vs Bournemouth
+2026-05-24,00:00,Tottenham,Everton,38,GW38 | 2026-05-24 00:00 - Tottenham vs Everton
+2026-05-24,00:00,West Ham,Leeds United Fc,38,GW38 | 2026-05-24 00:00 - West Ham vs Leeds United Fc

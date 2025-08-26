@@ -37,10 +37,13 @@ class EPLPredictor:
             self.model = joblib.load("champion_model.joblib")
             print("   ✅ Champion model loaded (53.7% accuracy)")
             
-            # Load fixtures
-            if os.path.exists("all_upcoming_fixtures.csv"):
+            # Load fixtures (prioritize real fixtures)
+            if os.path.exists("real_upcoming_fixtures.csv"):
+                self.fixtures = pd.read_csv("real_upcoming_fixtures.csv")
+                print(f"   ✅ Loaded {len(self.fixtures)} REAL fixtures from Football-Data.org")
+            elif os.path.exists("all_upcoming_fixtures.csv"):
                 self.fixtures = pd.read_csv("all_upcoming_fixtures.csv")
-                print(f"   ✅ Loaded {len(self.fixtures)} fixtures")
+                print(f"   ✅ Loaded {len(self.fixtures)} sample fixtures")
             else:
                 self.create_sample_fixtures()
             
