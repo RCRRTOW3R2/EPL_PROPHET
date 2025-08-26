@@ -1,9 +1,31 @@
-home_team,away_team,date,time,competition
-West Ham,Chelsea,2025-08-22,19:00,Premier League
-Manchester City,Liverpool,2025-01-26,16:30,Premier League
-Arsenal,Chelsea,2025-01-26,14:00,Premier League
-Manchester United,Tottenham,2025-01-27,16:30,Premier League
-Newcastle,Aston Villa,2025-01-27,19:00,Premier League
-Brighton,West Ham,2025-01-28,20:00,Premier League
-Fulham,Crystal Palace,2025-01-29,19:45,Premier League
-Wolves,Brentford,2025-01-29,20:00,Premier League
+date,time,home_team,away_team,gameweek,display
+2025-08-27,12:30,Arsenal,Aston Villa,38,GW38 | 2025-08-27 12:30 - Arsenal vs Aston Villa
+2025-08-28,15:00,Aston Villa,Bournemouth,38,GW38 | 2025-08-28 15:00 - Aston Villa vs Bournemouth
+2025-08-29,17:30,Bournemouth,Brentford,38,GW38 | 2025-08-29 17:30 - Bournemouth vs Brentford
+2025-08-30,19:45,Brentford,Brighton,38,GW38 | 2025-08-30 19:45 - Brentford vs Brighton
+2025-08-31,20:00,Brighton,Chelsea,38,GW38 | 2025-08-31 20:00 - Brighton vs Chelsea
+2025-09-03,12:30,Chelsea,Crystal Palace,38,GW38 | 2025-09-03 12:30 - Chelsea vs Crystal Palace
+2025-09-04,15:00,Crystal Palace,Everton,38,GW38 | 2025-09-04 15:00 - Crystal Palace vs Everton
+2025-09-05,17:30,Everton,Fulham,38,GW38 | 2025-09-05 17:30 - Everton vs Fulham
+2025-09-06,19:45,Fulham,Ipswich,38,GW38 | 2025-09-06 19:45 - Fulham vs Ipswich
+2025-09-07,20:00,Ipswich,Leicester,38,GW38 | 2025-09-07 20:00 - Ipswich vs Leicester
+2025-09-10,12:30,Leicester,Liverpool,38,GW38 | 2025-09-10 12:30 - Leicester vs Liverpool
+2025-09-11,15:00,Liverpool,Manchester City,38,GW38 | 2025-09-11 15:00 - Liverpool vs Manchester City
+2025-09-12,17:30,Manchester City,Manchester United,38,GW38 | 2025-09-12 17:30 - Manchester City vs Manchester United
+2025-09-13,19:45,Manchester United,Newcastle,38,GW38 | 2025-09-13 19:45 - Manchester United vs Newcastle
+2025-09-14,20:00,Newcastle,Nottingham Forest,38,GW38 | 2025-09-14 20:00 - Newcastle vs Nottingham Forest
+2025-09-17,12:30,Nottingham Forest,Southampton,38,GW38 | 2025-09-17 12:30 - Nottingham Forest vs Southampton
+2025-09-18,15:00,Southampton,Tottenham,38,GW38 | 2025-09-18 15:00 - Southampton vs Tottenham
+2025-09-19,17:30,Tottenham,West Ham,38,GW38 | 2025-09-19 17:30 - Tottenham vs West Ham
+2025-09-20,19:45,West Ham,Wolves,38,GW38 | 2025-09-20 19:45 - West Ham vs Wolves
+2025-09-21,20:00,Wolves,Arsenal,38,GW38 | 2025-09-21 20:00 - Wolves vs Arsenal
+2025-09-24,12:30,Arsenal,Aston Villa,38,GW38 | 2025-09-24 12:30 - Arsenal vs Aston Villa
+2025-09-25,15:00,Aston Villa,Bournemouth,38,GW38 | 2025-09-25 15:00 - Aston Villa vs Bournemouth
+2025-09-26,17:30,Bournemouth,Brentford,38,GW38 | 2025-09-26 17:30 - Bournemouth vs Brentford
+2025-09-27,19:45,Brentford,Brighton,38,GW38 | 2025-09-27 19:45 - Brentford vs Brighton
+2025-09-28,20:00,Brighton,Chelsea,38,GW38 | 2025-09-28 20:00 - Brighton vs Chelsea
+2025-10-01,12:30,Chelsea,Crystal Palace,38,GW38 | 2025-10-01 12:30 - Chelsea vs Crystal Palace
+2025-10-02,15:00,Crystal Palace,Everton,38,GW38 | 2025-10-02 15:00 - Crystal Palace vs Everton
+2025-10-03,17:30,Everton,Fulham,38,GW38 | 2025-10-03 17:30 - Everton vs Fulham
+2025-10-04,19:45,Fulham,Ipswich,38,GW38 | 2025-10-04 19:45 - Fulham vs Ipswich
+2025-10-05,20:00,Ipswich,Leicester,38,GW38 | 2025-10-05 20:00 - Ipswich vs Leicester
