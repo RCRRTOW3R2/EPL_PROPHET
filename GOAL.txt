@@ -1,0 +1,54 @@
+Project Charter — EPL PROPHET
+
+Objective
+Develop a predictive and explanatory analytics system for the English Premier League. The system generates match forecasts, explains drivers behind outcomes, enables scenario testing, and provides dashboards for team performance monitoring.
+
+Scope
+
+Match Forecasting
+
+Compute probabilities of home win, draw, and away win.
+
+Estimate scoreline distribution (mode + tails).
+
+Quantify confidence intervals for predictions.
+
+Feature Attribution
+
+Decompose predictions into key drivers: form (rolling xG), Elo gap, rest days, home advantage, injuries/suspensions, and betting market comparison.
+
+Provide SHAP-style contribution plots and auto-generated narratives.
+
+What-If Analysis
+
+Simulate changes in rest, player availability, and venue.
+
+Show resulting shifts in probabilities.
+
+Team Strength Dashboards
+
+Track attack/defense indices relative to league average.
+
+Visualize rolling 10-game trends.
+
+Benchmark each opponent against EPL median.
+
+Communication Templates
+
+Standardized per-fixture output:
+• Win probabilities
+• Top drivers (positive/negative)
+• Comparison with market odds
+• Narrative summary
+
+Deliverables
+
+Forecast engine with probability outputs.
+
+Attribution module with SHAP-style visuals.
+
+Scenario simulator.
+
+Team dashboards.
+
+Match preview communication templates.

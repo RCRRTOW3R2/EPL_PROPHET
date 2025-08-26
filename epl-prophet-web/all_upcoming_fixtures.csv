@@ -1,0 +1,101 @@
+home_team,away_team,date,time,gameweek,competition
+Arsenal,Leicester,2025-01-25,12:30,22,Premier League
+Aston Villa,Liverpool,2025-01-25,15:00,22,Premier League
+Bournemouth,Manchester City,2025-01-25,17:30,22,Premier League
+Brentford,Manchester United,2025-01-26,13:30,22,Premier League
+Brighton,Newcastle,2025-01-26,16:00,22,Premier League
+Chelsea,Nottingham Forest,2025-01-26,18:30,22,Premier League
+Crystal Palace,Southampton,2025-01-26,20:00,22,Premier League
+Everton,Tottenham,2025-01-27,20:00,22,Premier League
+Fulham,West Ham,2025-01-29,19:45,22,Premier League
+Ipswich,Wolves,2025-01-29,20:00,22,Premier League
+Aston Villa,Liverpool,2025-02-01,12:30,23,Premier League
+Bournemouth,Manchester City,2025-02-01,15:00,23,Premier League
+Brentford,Manchester United,2025-02-01,17:30,23,Premier League
+Brighton,Newcastle,2025-02-02,13:30,23,Premier League
+Chelsea,Nottingham Forest,2025-02-02,16:00,23,Premier League
+Crystal Palace,Southampton,2025-02-02,18:30,23,Premier League
+Everton,Tottenham,2025-02-02,20:00,23,Premier League
+Fulham,West Ham,2025-02-03,20:00,23,Premier League
+Ipswich,Wolves,2025-02-05,19:45,23,Premier League
+Leicester,Wolves,2025-02-05,20:00,23,Premier League
+Bournemouth,Manchester City,2025-02-08,12:30,24,Premier League
+Brentford,Manchester United,2025-02-08,15:00,24,Premier League
+Brighton,Newcastle,2025-02-08,17:30,24,Premier League
+Chelsea,Nottingham Forest,2025-02-09,13:30,24,Premier League
+Crystal Palace,Southampton,2025-02-09,16:00,24,Premier League
+Everton,Tottenham,2025-02-09,18:30,24,Premier League
+Fulham,West Ham,2025-02-09,20:00,24,Premier League
+Ipswich,Wolves,2025-02-10,20:00,24,Premier League
+Leicester,West Ham,2025-02-12,19:45,24,Premier League
+Liverpool,Wolves,2025-02-12,20:00,24,Premier League
+Brentford,Manchester United,2025-02-15,12:30,25,Premier League
+Brighton,Newcastle,2025-02-15,15:00,25,Premier League
+Chelsea,Nottingham Forest,2025-02-15,17:30,25,Premier League
+Crystal Palace,Southampton,2025-02-16,13:30,25,Premier League
+Everton,Tottenham,2025-02-16,16:00,25,Premier League
+Fulham,West Ham,2025-02-16,18:30,25,Premier League
+Ipswich,Wolves,2025-02-16,20:00,25,Premier League
+Leicester,Tottenham,2025-02-17,20:00,25,Premier League
+Liverpool,Wolves,2025-02-19,19:45,25,Premier League
+Manchester City,Wolves,2025-02-19,20:00,25,Premier League
+Arsenal,Newcastle,2025-02-22,12:30,26,Premier League
+Aston Villa,Nottingham Forest,2025-02-22,15:00,26,Premier League
+Bournemouth,Southampton,2025-02-22,17:30,26,Premier League
+Brentford,Tottenham,2025-02-23,13:30,26,Premier League
+Brighton,West Ham,2025-02-23,16:00,26,Premier League
+Chelsea,Wolves,2025-02-23,18:30,26,Premier League
+Crystal Palace,Southampton,2025-02-23,20:00,26,Premier League
+Everton,West Ham,2025-02-24,20:00,26,Premier League
+Fulham,West Ham,2025-02-26,19:45,26,Premier League
+Ipswich,Wolves,2025-02-26,20:00,26,Premier League
+Aston Villa,Nottingham Forest,2025-03-01,12:30,27,Premier League
+Bournemouth,Southampton,2025-03-01,15:00,27,Premier League
+Brentford,Tottenham,2025-03-01,17:30,27,Premier League
+Brighton,West Ham,2025-03-02,13:30,27,Premier League
+Chelsea,Wolves,2025-03-02,16:00,27,Premier League
+Crystal Palace,Nottingham Forest,2025-03-02,18:30,27,Premier League
+Everton,Tottenham,2025-03-02,20:00,27,Premier League
+Fulham,Wolves,2025-03-03,20:00,27,Premier League
+Ipswich,Wolves,2025-03-05,19:45,27,Premier League
+Leicester,Wolves,2025-03-05,20:00,27,Premier League
+Bournemouth,Southampton,2025-03-08,12:30,28,Premier League
+Brentford,Tottenham,2025-03-08,15:00,28,Premier League
+Brighton,West Ham,2025-03-08,17:30,28,Premier League
+Chelsea,Wolves,2025-03-09,13:30,28,Premier League
+Crystal Palace,Newcastle,2025-03-09,16:00,28,Premier League
+Everton,Southampton,2025-03-09,18:30,28,Premier League
+Fulham,West Ham,2025-03-09,20:00,28,Premier League
+Ipswich,Tottenham,2025-03-10,20:00,28,Premier League
+Leicester,West Ham,2025-03-12,19:45,28,Premier League
+Liverpool,Wolves,2025-03-12,20:00,28,Premier League
+Brentford,Tottenham,2025-03-15,12:30,29,Premier League
+Brighton,West Ham,2025-03-15,15:00,29,Premier League
+Chelsea,Wolves,2025-03-15,17:30,29,Premier League
+Crystal Palace,Manchester United,2025-03-16,13:30,29,Premier League
+Everton,Nottingham Forest,2025-03-16,16:00,29,Premier League
+Fulham,Tottenham,2025-03-16,18:30,29,Premier League
+Ipswich,Wolves,2025-03-16,20:00,29,Premier League
+Leicester,West Ham,2025-03-17,20:00,29,Premier League
+Liverpool,Wolves,2025-03-19,19:45,29,Premier League
+Manchester City,Wolves,2025-03-19,20:00,29,Premier League
+Arsenal,West Ham,2025-03-22,12:30,30,Premier League
+Aston Villa,Wolves,2025-03-22,15:00,30,Premier League
+Bournemouth,Manchester City,2025-03-22,17:30,30,Premier League
+Brentford,Newcastle,2025-03-23,13:30,30,Premier League
+Brighton,Southampton,2025-03-23,16:00,30,Premier League
+Chelsea,West Ham,2025-03-23,18:30,30,Premier League
+Crystal Palace,Southampton,2025-03-23,20:00,30,Premier League
+Everton,Wolves,2025-03-24,20:00,30,Premier League
+Fulham,West Ham,2025-03-26,19:45,30,Premier League
+Ipswich,Wolves,2025-03-26,20:00,30,Premier League
+Aston Villa,Wolves,2025-03-29,12:30,31,Premier League
+Bournemouth,Liverpool,2025-03-29,15:00,31,Premier League
+Brentford,Manchester United,2025-03-29,17:30,31,Premier League
+Brighton,Nottingham Forest,2025-03-30,13:30,31,Premier League
+Chelsea,Tottenham,2025-03-30,16:00,31,Premier League
+Crystal Palace,Wolves,2025-03-30,18:30,31,Premier League
+Everton,Tottenham,2025-03-30,20:00,31,Premier League
+Fulham,Tottenham,2025-03-31,20:00,31,Premier League
+Ipswich,Wolves,2025-04-02,19:45,31,Premier League
+Leicester,Wolves,2025-04-02,20:00,31,Premier League
