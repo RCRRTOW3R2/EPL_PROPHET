@@ -15,31 +15,60 @@ class EPLFixtureFetcher:
         self.team_mapping = {
             # Standard mappings for different API formats
             'arsenal': 'Arsenal',
+            'arsenal fc': 'Arsenal',
+            'aston villa': 'Aston Villa',
             'aston-villa': 'Aston Villa', 
             'bournemouth': 'Bournemouth',
+            'afc bournemouth': 'Bournemouth',
             'brentford': 'Brentford',
+            'brentford fc': 'Brentford',
             'brighton': 'Brighton',
+            'brighton & hove albion': 'Brighton',
             'brighton-hove-albion': 'Brighton',
+            'brighton and hove albion': 'Brighton',
             'chelsea': 'Chelsea',
+            'chelsea fc': 'Chelsea',
+            'crystal palace': 'Crystal Palace',
             'crystal-palace': 'Crystal Palace',
             'everton': 'Everton',
+            'everton fc': 'Everton',
             'fulham': 'Fulham',
+            'fulham fc': 'Fulham',
+            'ipswich': 'Ipswich',
+            'ipswich town': 'Ipswich',
             'ipswich-town': 'Ipswich',
             'leicester': 'Leicester',
+            'leicester city': 'Leicester',
             'leicester-city': 'Leicester',
             'liverpool': 'Liverpool',
+            'liverpool fc': 'Liverpool',
+            'manchester city': 'Manchester City',
             'manchester-city': 'Manchester City',
+            'man city': 'Manchester City',
+            'manchester united': 'Manchester United',
             'manchester-united': 'Manchester United',
+            'man united': 'Manchester United',
+            'man utd': 'Manchester United',
             'newcastle': 'Newcastle',
+            'newcastle united': 'Newcastle',
             'newcastle-united': 'Newcastle',
+            'nottingham forest': 'Nottingham Forest',
             'nottingham-forest': 'Nottingham Forest',
+            'nott\'m forest': 'Nottingham Forest',
             'southampton': 'Southampton',
+            'southampton fc': 'Southampton',
             'tottenham': 'Tottenham',
+            'tottenham hotspur': 'Tottenham',
             'tottenham-hotspur': 'Tottenham',
+            'spurs': 'Tottenham',
+            'west ham': 'West Ham',
+            'west ham united': 'West Ham',
             'west-ham': 'West Ham',
             'west-ham-united': 'West Ham',
+            'wolverhampton wanderers': 'Wolves',
             'wolverhampton-wanderers': 'Wolves',
-            'wolves': 'Wolves'
+            'wolves': 'Wolves',
+            'wolverhampton': 'Wolves'
         }
     
     def normalize_team_name(self, team_name):
@@ -72,33 +101,65 @@ class EPLFixtureFetcher:
             
             # This is a free API endpoint (replace with actual API key if you have one)
             url = "https://api.football-data.org/v4/competitions/PL/matches"
+
+            #url2 #i found this url idk if this is what we are supposed to be using instead of url https://v3.football.api-sports.io/
+
             headers = {
-                'X-Auth-Token': 'YOUR_API_KEY_HERE'  # Replace with real key
+                'X-Auth-Token': '11159164cc55fdbd61e1acfe16cd5203'  # Replace with real key
             }
             
-            # For demo, we'll simulate the response structure
-            # In real use, uncomment the actual API call:
-            # response = requests.get(url, headers=headers, timeout=10)
-            # if response.status_code == 200:
-            #     data = response.json()
-            #     for match in data.get('matches', []):
-            #         # Process real API data
-            
-            print("   ⚠️  Demo mode - using sample data (replace with real API key)")
-            return []
+            # Make the actual API call now that we have a real key
+            response = requests.get(url, headers=headers, timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                matches = data.get('matches', [])
+                
+                for match in matches:
+                    # Only get upcoming matches
+                    match_status = match.get('status')
+                    if match_status in ['SCHEDULED', 'TIMED']:
+                        home_team = match.get('homeTeam', {}).get('name', '')
+                        away_team = match.get('awayTeam', {}).get('name', '')
+                        match_date_str = match.get('utcDate', '')
+                        
+                        if match_date_str and home_team and away_team:
+                            # Parse the date
+                            match_date = datetime.fromisoformat(match_date_str.replace('Z', '+00:00'))
+                            
+                            # Normalize team names
+                            home_norm = self.normalize_team_name(home_team)
+                            away_norm = self.normalize_team_name(away_team)
+                            
+                            if home_norm and away_norm:
+                                fixture = {
+                                    'date': match_date.strftime('%Y-%m-%d'),
+                                    'time': match_date.strftime('%H:%M'),
+                                    'home_team': home_norm,
+                                    'away_team': away_norm,
+                                    'gameweek': self.estimate_gameweek(match_date),
+                                    'display': f"GW{self.estimate_gameweek(match_date)} | {match_date.strftime('%Y-%m-%d %H:%M')} - {home_norm} vs {away_norm}"
+                                }
+                                fixtures.append(fixture)
+                
+                print(f"   ✅ Got {len(fixtures)} fixtures from Football-Data.org")
+                return fixtures
+            else:
+                print(f"   ❌ API returned status {response.status_code}")
+                return []
             
         except Exception as e:
             print(f"   ❌ Football-API error: {e}")
             return []
     
     def fetch_from_espn(self):
-        """Fetch from ESPN API"""
+        """Fetch from ESPN fixtures page (JSON-based)"""
         fixtures = []
         try:
-            print("🔄 Trying ESPN API...")
+            print("🔄 Trying ESPN fixtures page...")
             
-            url = "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
-            response = requests.get(url, timeout=10)
+            # Try the fixtures API endpoint first
+            fixtures_url = "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/fixtures"
+            response = requests.get(fixtures_url, timeout=10)
             
             if response.status_code == 200:
                 data = response.json()
@@ -115,8 +176,23 @@ class EPLFixtureFetcher:
                             if competitions:
                                 competitors = competitions[0].get('competitors', [])
                                 if len(competitors) >= 2:
-                                    home_team = competitors[0].get('team', {}).get('displayName', '')
-                                    away_team = competitors[1].get('team', {}).get('displayName', '')
+                                    # ESPN sometimes has home/away in different orders
+                                    team1 = competitors[0].get('team', {}).get('displayName', '')
+                                    team2 = competitors[1].get('team', {}).get('displayName', '')
+                                    
+                                    # Try to determine home/away from venue or other indicators
+                                    home_team = team1
+                                    away_team = team2
+                                    
+                                    # Check if there's venue info to determine home team
+                                    venue = event.get('venue', {})
+                                    if venue:
+                                        venue_name = venue.get('fullName', '').lower()
+                                        # Simple heuristic: if team name appears in venue, it's likely home
+                                        if team1.lower() in venue_name:
+                                            home_team, away_team = team1, team2
+                                        elif team2.lower() in venue_name:
+                                            home_team, away_team = team2, team1
                                     
                                     # Normalize team names
                                     home_norm = self.normalize_team_name(home_team)
@@ -135,9 +211,48 @@ class EPLFixtureFetcher:
                 
                 print(f"   ✅ Got {len(fixtures)} fixtures from ESPN")
                 return fixtures
+            
+            # Fallback to scoreboard if fixtures endpoint doesn't work
+            print("   🔄 Trying ESPN scoreboard as fallback...")
+            scoreboard_url = "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard"
+            response = requests.get(scoreboard_url, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                events = data.get('events', [])
+                
+                for event in events:
+                    event_date = event.get('date')
+                    if event_date:
+                        match_date = datetime.fromisoformat(event_date.replace('Z', '+00:00'))
+                        if match_date > datetime.now(match_date.tzinfo):
+                            
+                            competitions = event.get('competitions', [])
+                            if competitions:
+                                competitors = competitions[0].get('competitors', [])
+                                if len(competitors) >= 2:
+                                    home_team = competitors[0].get('team', {}).get('displayName', '')
+                                    away_team = competitors[1].get('team', {}).get('displayName', '')
+                                    
+                                    home_norm = self.normalize_team_name(home_team)
+                                    away_norm = self.normalize_team_name(away_team)
+                                    
+                                    if home_norm and away_norm:
+                                        fixture = {
+                                            'date': match_date.strftime('%Y-%m-%d'),
+                                            'time': match_date.strftime('%H:%M'),
+                                            'home_team': home_norm,
+                                            'away_team': away_norm,
+                                            'gameweek': self.estimate_gameweek(match_date),
+                                            'display': f"GW{self.estimate_gameweek(match_date)} | {match_date.strftime('%Y-%m-%d %H:%M')} - {home_norm} vs {away_norm}"
+                                        }
+                                        fixtures.append(fixture)
+                
+                print(f"   ✅ Got {len(fixtures)} fixtures from ESPN scoreboard")
+                return fixtures
                 
         except Exception as e:
-            print(f"   ❌ ESPN API error: {e}")
+            print(f"   ❌ ESPN error: {e}")
             return []
     
     def fetch_from_rapidapi(self):
