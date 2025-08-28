@@ -1,0 +1,892 @@
+{
+  "team_weather_analysis": {
+    "Arsenal": {
+      "total_matches": 418,
+      "weather_performance": {
+        "clear": {
+          "matches": 36,
+          "win_rate": 0.583,
+          "avg_goals_for": 1.92,
+          "avg_goals_against": 1.08,
+          "goal_difference": 0.83
+        },
+        "cloudy": {
+          "matches": 72,
+          "win_rate": 0.653,
+          "avg_goals_for": 1.99,
+          "avg_goals_against": 0.93,
+          "goal_difference": 1.06
+        },
+        "rainy": {
+          "matches": 101,
+          "win_rate": 0.693,
+          "avg_goals_for": 2.24,
+          "avg_goals_against": 0.9,
+          "goal_difference": 1.34
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.11
+    },
+    "Chelsea": {
+      "total_matches": 418,
+      "weather_performance": {
+        "clear": {
+          "matches": 43,
+          "win_rate": 0.512,
+          "avg_goals_for": 1.58,
+          "avg_goals_against": 1.05,
+          "goal_difference": 0.53
+        },
+        "cloudy": {
+          "matches": 78,
+          "win_rate": 0.538,
+          "avg_goals_for": 1.78,
+          "avg_goals_against": 0.92,
+          "goal_difference": 0.86
+        },
+        "rainy": {
+          "matches": 88,
+          "win_rate": 0.614,
+          "avg_goals_for": 2.07,
+          "avg_goals_against": 0.98,
+          "goal_difference": 1.09
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.102
+    },
+    "Liverpool": {
+      "total_matches": 418,
+      "weather_performance": {
+        "clear": {
+          "matches": 51,
+          "win_rate": 0.686,
+          "avg_goals_for": 2.25,
+          "avg_goals_against": 0.75,
+          "goal_difference": 1.51
+        },
+        "cloudy": {
+          "matches": 71,
+          "win_rate": 0.662,
+          "avg_goals_for": 2.06,
+          "avg_goals_against": 0.75,
+          "goal_difference": 1.31
+        },
+        "rainy": {
+          "matches": 87,
+          "win_rate": 0.713,
+          "avg_goals_for": 2.46,
+          "avg_goals_against": 0.97,
+          "goal_difference": 1.49
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.027
+    },
+    "Tottenham": {
+      "total_matches": 418,
+      "weather_performance": {
+        "clear": {
+          "matches": 49,
+          "win_rate": 0.694,
+          "avg_goals_for": 2.06,
+          "avg_goals_against": 0.96,
+          "goal_difference": 1.1
+        },
+        "cloudy": {
+          "matches": 68,
+          "win_rate": 0.544,
+          "avg_goals_for": 1.74,
+          "avg_goals_against": 1.18,
+          "goal_difference": 0.56
+        },
+        "rainy": {
+          "matches": 92,
+          "win_rate": 0.62,
+          "avg_goals_for": 2.03,
+          "avg_goals_against": 1.04,
+          "goal_difference": 0.99
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": 0.074
+    },
+    "Newcastle": {
+      "total_matches": 380,
+      "weather_performance": {
+        "clear": {
+          "matches": 36,
+          "win_rate": 0.5,
+          "avg_goals_for": 1.69,
+          "avg_goals_against": 1.22,
+          "goal_difference": 0.47
+        },
+        "cloudy": {
+          "matches": 74,
+          "win_rate": 0.486,
+          "avg_goals_for": 1.55,
+          "avg_goals_against": 1.14,
+          "goal_difference": 0.42
+        },
+        "rainy": {
+          "matches": 80,
+          "win_rate": 0.388,
+          "avg_goals_for": 1.55,
+          "avg_goals_against": 1.27,
+          "goal_difference": 0.28
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": 0.112
+    },
+    "Aston Villa": {
+      "total_matches": 304,
+      "weather_performance": {
+        "clear": {
+          "matches": 24,
+          "win_rate": 0.5,
+          "avg_goals_for": 1.5,
+          "avg_goals_against": 1.12,
+          "goal_difference": 0.38
+        },
+        "cloudy": {
+          "matches": 45,
+          "win_rate": 0.378,
+          "avg_goals_for": 1.27,
+          "avg_goals_against": 1.22,
+          "goal_difference": 0.04
+        },
+        "rainy": {
+          "matches": 83,
+          "win_rate": 0.398,
+          "avg_goals_for": 1.61,
+          "avg_goals_against": 1.6,
+          "goal_difference": 0.01
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": 0.102
+    },
+    "West Ham": {
+      "total_matches": 418,
+      "weather_performance": {
+        "clear": {
+          "matches": 47,
+          "win_rate": 0.362,
+          "avg_goals_for": 1.51,
+          "avg_goals_against": 1.66,
+          "goal_difference": -0.15
+        },
+        "cloudy": {
+          "matches": 81,
+          "win_rate": 0.457,
+          "avg_goals_for": 1.57,
+          "avg_goals_against": 1.36,
+          "goal_difference": 0.21
+        },
+        "rainy": {
+          "matches": 81,
+          "win_rate": 0.395,
+          "avg_goals_for": 1.37,
+          "avg_goals_against": 1.32,
+          "goal_difference": 0.05
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.033
+    },
+    "Everton": {
+      "total_matches": 418,
+      "weather_performance": {
+        "clear": {
+          "matches": 35,
+          "win_rate": 0.371,
+          "avg_goals_for": 1.43,
+          "avg_goals_against": 1.43,
+          "goal_difference": 0.0
+        },
+        "cloudy": {
+          "matches": 81,
+          "win_rate": 0.42,
+          "avg_goals_for": 1.37,
+          "avg_goals_against": 1.17,
+          "goal_difference": 0.2
+        },
+        "rainy": {
+          "matches": 93,
+          "win_rate": 0.441,
+          "avg_goals_for": 1.51,
+          "avg_goals_against": 1.15,
+          "goal_difference": 0.35
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.07
+    },
+    "Crystal Palace": {
+      "total_matches": 418,
+      "weather_performance": {
+        "clear": {
+          "matches": 43,
+          "win_rate": 0.372,
+          "avg_goals_for": 1.28,
+          "avg_goals_against": 1.21,
+          "goal_difference": 0.07
+        },
+        "cloudy": {
+          "matches": 77,
+          "win_rate": 0.325,
+          "avg_goals_for": 1.19,
+          "avg_goals_against": 1.39,
+          "goal_difference": -0.19
+        },
+        "rainy": {
+          "matches": 89,
+          "win_rate": 0.326,
+          "avg_goals_for": 1.22,
+          "avg_goals_against": 1.24,
+          "goal_difference": -0.01
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": 0.046
+    },
+    "Brighton": {
+      "total_matches": 304,
+      "weather_performance": {
+        "clear": {
+          "matches": 35,
+          "win_rate": 0.429,
+          "avg_goals_for": 1.4,
+          "avg_goals_against": 1.11,
+          "goal_difference": 0.29
+        },
+        "cloudy": {
+          "matches": 61,
+          "win_rate": 0.295,
+          "avg_goals_for": 1.11,
+          "avg_goals_against": 1.26,
+          "goal_difference": -0.15
+        },
+        "rainy": {
+          "matches": 56,
+          "win_rate": 0.357,
+          "avg_goals_for": 1.5,
+          "avg_goals_against": 1.48,
+          "goal_difference": 0.02
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": 0.072
+    },
+    "Wolves": {
+      "total_matches": 266,
+      "weather_performance": {
+        "clear": {
+          "matches": 24,
+          "win_rate": 0.458,
+          "avg_goals_for": 1.25,
+          "avg_goals_against": 1.08,
+          "goal_difference": 0.17
+        },
+        "cloudy": {
+          "matches": 43,
+          "win_rate": 0.442,
+          "avg_goals_for": 1.44,
+          "avg_goals_against": 1.28,
+          "goal_difference": 0.16
+        },
+        "rainy": {
+          "matches": 66,
+          "win_rate": 0.379,
+          "avg_goals_for": 1.15,
+          "avg_goals_against": 1.38,
+          "goal_difference": -0.23
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": 0.079
+    },
+    "Fulham": {
+      "total_matches": 190,
+      "weather_performance": {
+        "clear": {
+          "matches": 10,
+          "win_rate": 0.3,
+          "avg_goals_for": 1.4,
+          "avg_goals_against": 1.6,
+          "goal_difference": -0.2
+        },
+        "cloudy": {
+          "matches": 39,
+          "win_rate": 0.385,
+          "avg_goals_for": 1.28,
+          "avg_goals_against": 1.56,
+          "goal_difference": -0.28
+        },
+        "rainy": {
+          "matches": 46,
+          "win_rate": 0.304,
+          "avg_goals_for": 1.22,
+          "avg_goals_against": 1.52,
+          "goal_difference": -0.3
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.004
+    },
+    "Brentford": {
+      "total_matches": 152,
+      "weather_performance": {
+        "clear": {
+          "matches": 15,
+          "win_rate": 0.4,
+          "avg_goals_for": 1.47,
+          "avg_goals_against": 1.2,
+          "goal_difference": 0.27
+        },
+        "cloudy": {
+          "matches": 26,
+          "win_rate": 0.385,
+          "avg_goals_for": 1.69,
+          "avg_goals_against": 1.5,
+          "goal_difference": 0.19
+        },
+        "rainy": {
+          "matches": 35,
+          "win_rate": 0.429,
+          "avg_goals_for": 1.71,
+          "avg_goals_against": 1.46,
+          "goal_difference": 0.26
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.029
+    },
+    "Bournemouth": {
+      "total_matches": 304,
+      "weather_performance": {
+        "clear": {
+          "matches": 27,
+          "win_rate": 0.222,
+          "avg_goals_for": 1.15,
+          "avg_goals_against": 1.7,
+          "goal_difference": -0.56
+        },
+        "cloudy": {
+          "matches": 52,
+          "win_rate": 0.327,
+          "avg_goals_for": 1.19,
+          "avg_goals_against": 1.6,
+          "goal_difference": -0.4
+        },
+        "rainy": {
+          "matches": 73,
+          "win_rate": 0.438,
+          "avg_goals_for": 1.55,
+          "avg_goals_against": 1.25,
+          "goal_difference": 0.3
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.216
+    },
+    "Sheffield United": {
+      "total_matches": 114,
+      "weather_performance": {
+        "clear": {
+          "matches": 11,
+          "win_rate": 0.364,
+          "avg_goals_for": 1.0,
+          "avg_goals_against": 1.36,
+          "goal_difference": -0.36
+        },
+        "cloudy": {
+          "matches": 17,
+          "win_rate": 0.353,
+          "avg_goals_for": 0.94,
+          "avg_goals_against": 1.47,
+          "goal_difference": -0.53
+        },
+        "rainy": {
+          "matches": 29,
+          "win_rate": 0.241,
+          "avg_goals_for": 0.97,
+          "avg_goals_against": 2.03,
+          "goal_difference": -1.07
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": 0.123
+    },
+    "Leicester": {
+      "total_matches": 380,
+      "weather_performance": {
+        "clear": {
+          "matches": 34,
+          "win_rate": 0.382,
+          "avg_goals_for": 1.44,
+          "avg_goals_against": 1.18,
+          "goal_difference": 0.26
+        },
+        "cloudy": {
+          "matches": 68,
+          "win_rate": 0.412,
+          "avg_goals_for": 1.4,
+          "avg_goals_against": 1.46,
+          "goal_difference": -0.06
+        },
+        "rainy": {
+          "matches": 88,
+          "win_rate": 0.477,
+          "avg_goals_for": 1.59,
+          "avg_goals_against": 1.12,
+          "goal_difference": 0.47
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.095
+    },
+    "Southampton": {
+      "total_matches": 380,
+      "weather_performance": {
+        "clear": {
+          "matches": 41,
+          "win_rate": 0.293,
+          "avg_goals_for": 1.0,
+          "avg_goals_against": 1.22,
+          "goal_difference": -0.22
+        },
+        "cloudy": {
+          "matches": 63,
+          "win_rate": 0.333,
+          "avg_goals_for": 1.52,
+          "avg_goals_against": 1.59,
+          "goal_difference": -0.06
+        },
+        "rainy": {
+          "matches": 86,
+          "win_rate": 0.314,
+          "avg_goals_for": 1.24,
+          "avg_goals_against": 1.51,
+          "goal_difference": -0.27
+        }
+      },
+      "seasonal_performance": {},
+      "weather_sensitivity": -0.021
+    }
+  },
+  "referee_analysis": {
+    "J Moss": {
+      "total_matches": 215,
+      "home_win_rate": 0.447,
+      "home_advantage_bias": -0.013,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 21.6,
+      "avg_goals_per_match": 2.9,
+      "strictness": "Medium"
+    },
+    "M Jones": {
+      "total_matches": 79,
+      "home_win_rate": 0.456,
+      "home_advantage_bias": -0.004,
+      "avg_cards_per_match": 3.2,
+      "avg_fouls_per_match": 22.9,
+      "avg_goals_per_match": 2.6,
+      "strictness": "Medium"
+    },
+    "M Dean": {
+      "total_matches": 224,
+      "home_win_rate": 0.455,
+      "home_advantage_bias": -0.005,
+      "avg_cards_per_match": 4.0,
+      "avg_fouls_per_match": 21.5,
+      "avg_goals_per_match": 2.6,
+      "strictness": "Medium"
+    },
+    "C Pawson": {
+      "total_matches": 257,
+      "home_win_rate": 0.424,
+      "home_advantage_bias": -0.036,
+      "avg_cards_per_match": 3.8,
+      "avg_fouls_per_match": 22.6,
+      "avg_goals_per_match": 2.7,
+      "strictness": "Medium"
+    },
+    "A Taylor": {
+      "total_matches": 325,
+      "home_win_rate": 0.428,
+      "home_advantage_bias": -0.032,
+      "avg_cards_per_match": 3.7,
+      "avg_fouls_per_match": 21.3,
+      "avg_goals_per_match": 3.0,
+      "strictness": "Medium"
+    },
+    "N Swarbrick": {
+      "total_matches": 81,
+      "home_win_rate": 0.432,
+      "home_advantage_bias": -0.028,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 20.3,
+      "avg_goals_per_match": 2.9,
+      "strictness": "Medium"
+    },
+    "C Foy": {
+      "total_matches": 15,
+      "home_win_rate": 0.533,
+      "home_advantage_bias": 0.073,
+      "avg_cards_per_match": 3.5,
+      "avg_fouls_per_match": 22.8,
+      "avg_goals_per_match": 2.1,
+      "strictness": "Medium"
+    },
+    "M Clattenburg": {
+      "total_matches": 79,
+      "home_win_rate": 0.468,
+      "home_advantage_bias": 0.008,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 22.4,
+      "avg_goals_per_match": 2.9,
+      "strictness": "Medium"
+    },
+    "M Atkinson": {
+      "total_matches": 229,
+      "home_win_rate": 0.415,
+      "home_advantage_bias": -0.045,
+      "avg_cards_per_match": 3.3,
+      "avg_fouls_per_match": 20.7,
+      "avg_goals_per_match": 2.5,
+      "strictness": "Medium"
+    },
+    "M Oliver": {
+      "total_matches": 312,
+      "home_win_rate": 0.423,
+      "home_advantage_bias": -0.037,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 21.7,
+      "avg_goals_per_match": 2.9,
+      "strictness": "Medium"
+    },
+    "L Mason": {
+      "total_matches": 130,
+      "home_win_rate": 0.523,
+      "home_advantage_bias": 0.063,
+      "avg_cards_per_match": 3.0,
+      "avg_fouls_per_match": 22.1,
+      "avg_goals_per_match": 2.8,
+      "strictness": "Medium"
+    },
+    "K Friend": {
+      "total_matches": 179,
+      "home_win_rate": 0.43,
+      "home_advantage_bias": -0.03,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 20.9,
+      "avg_goals_per_match": 2.7,
+      "strictness": "Medium"
+    },
+    "R East": {
+      "total_matches": 81,
+      "home_win_rate": 0.506,
+      "home_advantage_bias": 0.046,
+      "avg_cards_per_match": 3.3,
+      "avg_fouls_per_match": 22.8,
+      "avg_goals_per_match": 2.7,
+      "strictness": "Medium"
+    },
+    "R Madley": {
+      "total_matches": 87,
+      "home_win_rate": 0.471,
+      "home_advantage_bias": 0.011,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 22.2,
+      "avg_goals_per_match": 2.6,
+      "strictness": "Medium"
+    },
+    "P Tierney": {
+      "total_matches": 183,
+      "home_win_rate": 0.404,
+      "home_advantage_bias": -0.056,
+      "avg_cards_per_match": 3.5,
+      "avg_fouls_per_match": 22.2,
+      "avg_goals_per_match": 2.8,
+      "strictness": "Medium"
+    },
+    "P Dowd": {
+      "total_matches": 21,
+      "home_win_rate": 0.333,
+      "home_advantage_bias": -0.127,
+      "avg_cards_per_match": 4.6,
+      "avg_fouls_per_match": 25.1,
+      "avg_goals_per_match": 3.2,
+      "strictness": "High"
+    },
+    "A Marriner": {
+      "total_matches": 208,
+      "home_win_rate": 0.404,
+      "home_advantage_bias": -0.056,
+      "avg_cards_per_match": 3.2,
+      "avg_fouls_per_match": 18.9,
+      "avg_goals_per_match": 2.9,
+      "strictness": "Medium"
+    },
+    "S Attwell": {
+      "total_matches": 175,
+      "home_win_rate": 0.457,
+      "home_advantage_bias": -0.003,
+      "avg_cards_per_match": 3.7,
+      "avg_fouls_per_match": 20.3,
+      "avg_goals_per_match": 2.8,
+      "strictness": "Medium"
+    },
+    "G Scott": {
+      "total_matches": 105,
+      "home_win_rate": 0.533,
+      "home_advantage_bias": 0.073,
+      "avg_cards_per_match": 2.8,
+      "avg_fouls_per_match": 20.1,
+      "avg_goals_per_match": 2.8,
+      "strictness": "Low"
+    },
+    "L Probert": {
+      "total_matches": 43,
+      "home_win_rate": 0.419,
+      "home_advantage_bias": -0.041,
+      "avg_cards_per_match": 2.6,
+      "avg_fouls_per_match": 20.0,
+      "avg_goals_per_match": 2.3,
+      "strictness": "Low"
+    },
+    "S Hooper": {
+      "total_matches": 125,
+      "home_win_rate": 0.464,
+      "home_advantage_bias": 0.004,
+      "avg_cards_per_match": 3.7,
+      "avg_fouls_per_match": 21.5,
+      "avg_goals_per_match": 2.9,
+      "strictness": "Medium"
+    },
+    "C Kavanagh": {
+      "total_matches": 163,
+      "home_win_rate": 0.436,
+      "home_advantage_bias": -0.024,
+      "avg_cards_per_match": 3.6,
+      "avg_fouls_per_match": 21.0,
+      "avg_goals_per_match": 2.7,
+      "strictness": "Medium"
+    },
+    "D Coote": {
+      "total_matches": 112,
+      "home_win_rate": 0.464,
+      "home_advantage_bias": 0.004,
+      "avg_cards_per_match": 4.0,
+      "avg_fouls_per_match": 23.5,
+      "avg_goals_per_match": 2.7,
+      "strictness": "Medium"
+    },
+    "A Madley": {
+      "total_matches": 112,
+      "home_win_rate": 0.446,
+      "home_advantage_bias": -0.014,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 23.1,
+      "avg_goals_per_match": 3.0,
+      "strictness": "Medium"
+    },
+    "P Bankes": {
+      "total_matches": 93,
+      "home_win_rate": 0.505,
+      "home_advantage_bias": 0.045,
+      "avg_cards_per_match": 4.1,
+      "avg_fouls_per_match": 21.5,
+      "avg_goals_per_match": 2.6,
+      "strictness": "Medium"
+    },
+    "T Robinson": {
+      "total_matches": 40,
+      "home_win_rate": 0.475,
+      "home_advantage_bias": 0.015,
+      "avg_cards_per_match": 4.2,
+      "avg_fouls_per_match": 23.3,
+      "avg_goals_per_match": 2.8,
+      "strictness": "Medium"
+    },
+    "R Jones": {
+      "total_matches": 92,
+      "home_win_rate": 0.446,
+      "home_advantage_bias": -0.014,
+      "avg_cards_per_match": 3.9,
+      "avg_fouls_per_match": 22.9,
+      "avg_goals_per_match": 2.8,
+      "strictness": "Medium"
+    },
+    "D England": {
+      "total_matches": 76,
+      "home_win_rate": 0.421,
+      "home_advantage_bias": -0.039,
+      "avg_cards_per_match": 4.0,
+      "avg_fouls_per_match": 21.8,
+      "avg_goals_per_match": 3.1,
+      "strictness": "Medium"
+    },
+    "J Gillett": {
+      "total_matches": 62,
+      "home_win_rate": 0.371,
+      "home_advantage_bias": -0.089,
+      "avg_cards_per_match": 3.8,
+      "avg_fouls_per_match": 20.1,
+      "avg_goals_per_match": 3.2,
+      "strictness": "Medium"
+    },
+    "M Salisbury": {
+      "total_matches": 47,
+      "home_win_rate": 0.489,
+      "home_advantage_bias": 0.029,
+      "avg_cards_per_match": 3.9,
+      "avg_fouls_per_match": 23.0,
+      "avg_goals_per_match": 3.2,
+      "strictness": "Medium"
+    },
+    "J Brooks": {
+      "total_matches": 62,
+      "home_win_rate": 0.5,
+      "home_advantage_bias": 0.04,
+      "avg_cards_per_match": 4.5,
+      "avg_fouls_per_match": 21.9,
+      "avg_goals_per_match": 2.6,
+      "strictness": "High"
+    },
+    "T Harrington": {
+      "total_matches": 37,
+      "home_win_rate": 0.405,
+      "home_advantage_bias": -0.055,
+      "avg_cards_per_match": 3.9,
+      "avg_fouls_per_match": 22.2,
+      "avg_goals_per_match": 2.9,
+      "strictness": "Medium"
+    },
+    "T Bramall": {
+      "total_matches": 30,
+      "home_win_rate": 0.533,
+      "home_advantage_bias": 0.073,
+      "avg_cards_per_match": 4.0,
+      "avg_fouls_per_match": 23.0,
+      "avg_goals_per_match": 2.8,
+      "strictness": "Medium"
+    },
+    "D Bond": {
+      "total_matches": 23,
+      "home_win_rate": 0.522,
+      "home_advantage_bias": 0.062,
+      "avg_cards_per_match": 4.2,
+      "avg_fouls_per_match": 21.5,
+      "avg_goals_per_match": 2.8,
+      "strictness": "Medium"
+    },
+    "S Barrott": {
+      "total_matches": 38,
+      "home_win_rate": 0.474,
+      "home_advantage_bias": 0.014,
+      "avg_cards_per_match": 4.1,
+      "avg_fouls_per_match": 20.7,
+      "avg_goals_per_match": 3.3,
+      "strictness": "Medium"
+    }
+  },
+  "insights": {
+    "referees": [
+      "J Moss",
+      "M Jones",
+      "M Dean",
+      "C Pawson",
+      "A Taylor",
+      "N Swarbrick",
+      "C Foy",
+      "M Clattenburg",
+      "M Atkinson",
+      "M Oliver",
+      "L Mason",
+      "K Friend",
+      "R East",
+      "R Madley",
+      "P Tierney",
+      "P Dowd",
+      "A Marriner",
+      "S Attwell",
+      "G Scott",
+      "L Probert",
+      "S Hooper",
+      "C Kavanagh",
+      "D Coote",
+      "A Madley",
+      "P Bankes",
+      "T Robinson",
+      "R Jones",
+      "D England",
+      "J Gillett",
+      "M Salisbury",
+      "J Brooks",
+      "T Harrington",
+      "T Bramall",
+      "D Bond",
+      "S Barrott"
+    ],
+    "team_weather_factors": {
+      "Arsenal": -0.11,
+      "Chelsea": -0.102,
+      "Liverpool": -0.027,
+      "Tottenham": 0.074,
+      "Newcastle": 0.112,
+      "Aston Villa": 0.102,
+      "West Ham": -0.033,
+      "Everton": -0.07,
+      "Crystal Palace": 0.046,
+      "Brighton": 0.072,
+      "Wolves": 0.079,
+      "Fulham": -0.004,
+      "Brentford": -0.029,
+      "Bournemouth": -0.216,
+      "Sheffield United": 0.123,
+      "Leicester": -0.095,
+      "Southampton": -0.021
+    },
+    "referee_bias": {
+      "J Moss": -0.013,
+      "M Jones": -0.004,
+      "M Dean": -0.005,
+      "C Pawson": -0.036,
+      "A Taylor": -0.032,
+      "N Swarbrick": -0.028,
+      "C Foy": 0.073,
+      "M Clattenburg": 0.008,
+      "M Atkinson": -0.045,
+      "M Oliver": -0.037,
+      "L Mason": 0.063,
+      "K Friend": -0.03,
+      "R East": 0.046,
+      "R Madley": 0.011,
+      "P Tierney": -0.056,
+      "P Dowd": -0.127,
+      "A Marriner": -0.056,
+      "S Attwell": -0.003,
+      "G Scott": 0.073,
+      "L Probert": -0.041,
+      "S Hooper": 0.004,
+      "C Kavanagh": -0.024,
+      "D Coote": 0.004,
+      "A Madley": -0.014,
+      "P Bankes": 0.045,
+      "T Robinson": 0.015,
+      "R Jones": -0.014,
+      "D England": -0.039,
+      "J Gillett": -0.089,
+      "M Salisbury": 0.029,
+      "J Brooks": 0.04,
+      "T Harrington": -0.055,
+      "T Bramall": 0.073,
+      "D Bond": 0.062,
+      "S Barrott": 0.014
+    }
+  }
+}
