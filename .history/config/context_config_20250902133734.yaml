@@ -1,0 +1,113 @@
+# EPL Prophet Context Features Configuration
+# Advanced feature engineering for >53.7% accuracy
+
+# Reddit API Configuration
+reddit:
+  client_id: ${REDDIT_CLIENT_ID}
+  client_secret: ${REDDIT_CLIENT_SECRET}
+  user_agent: "EPL_Prophet_v1.0"
+
+# Sentiment Analysis Configuration
+sentiment:
+  model: "vader"  # Options: "vader", "roberta"
+  toxicity_threshold: 0.8
+  time_window_hours: 48
+  min_comments_for_coverage: 200
+
+# Team Subreddit Mapping
+subreddits:
+  "Arsenal": "Gunners"
+  "Chelsea": "chelseafc"
+  "Liverpool": "LiverpoolFC"
+  "Manchester City": "MCFC"
+  "Manchester United": "reddevils"
+  "Tottenham": "coys"
+  "Newcastle": "NUFC"
+  "Aston Villa": "avfc"
+  "Brighton": "BrightonHoveAlbion"
+  "Crystal Palace": "crystalpalace"
+  "Everton": "Everton"
+  "Fulham": "fulhamfc"
+  "Nottingham Forest": "nffc"
+  "West Ham": "Hammers"
+  "Wolves": "WWFC"
+  "Brentford": "Brentford"
+  "Bournemouth": "afcbournemouth"
+  "Leicester": "lcfc"
+  "Southampton": "SaintsFC"
+  "Ipswich": "IpswichTownFC"
+
+# Model Configuration
+model:
+  type: "random_forest"
+  n_estimators: 300  # Increased for better performance
+  max_depth: 15
+  random_state: 42
+  min_samples_split: 5
+  min_samples_leaf: 2
+
+# Training Configuration
+training:
+  test_size: 0.2
+  cv_folds: 5
+  calibration_method: "isotonic"  # Options: "sigmoid", "isotonic"
+  feature_selection: true
+  selection_k_best: 50
+
+# Feature Engineering Configuration
+features:
+  use_context_features: true
+  scale_features: true
+  feature_selection: true
+  
+  # Fan Sentiment Features
+  fan_sentiment:
+    enabled: true
+    weight_by_karma: true
+    weight_by_upvotes: true
+    filter_toxicity: true
+    
+  # Travel & Rest Features
+  travel_rest:
+    enabled: true
+    distance_threshold_km: 5  # Same city tolerance
+    short_rest_threshold_days: 4
+    
+  # Crowd & Atmosphere Features
+  crowd_atmosphere:
+    enabled: true
+    sellout_threshold: 0.95
+    big_game_detection: true
+    
+  # Referee Features
+  referee_effects:
+    enabled: true
+    min_matches_for_bias: 10
+
+# Confidence Calculation Weights
+confidence_weights: [0.35, 0.25, 0.25, 0.15]  # [calibrated, market_agreement, ensemble, coverage]
+
+# Market Data Configuration
+market_data:
+  enabled: false
+  source: "odds_api"  # Future integration
+  api_key: ${ODDS_API_KEY}
+
+# Performance Targets
+targets:
+  baseline_accuracy: 0.537
+  target_accuracy: 0.56
+  min_confidence_threshold: 50
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  log_predictions: true
+  log_feature_importance: true
+  log_shap_explanations: true
+
+# Cache Configuration
+cache:
+  reddit_data_ttl_hours: 6
+  referee_stats_ttl_days: 30
+  team_coords_cache: true 

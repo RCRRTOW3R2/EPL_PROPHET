@@ -26,20 +26,20 @@
             <!-- Quick Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
                 <div class="bg-white/10 backdrop-blur rounded-lg p-4">
-                    <div class="text-3xl font-bold">50.4%</div>
-                    <div class="text-sm opacity-80">Frankenstein Accuracy</div>
+                    <div class="text-3xl font-bold">53.7%</div>
+                    <div class="text-sm opacity-80">Model Accuracy</div>
                 </div>
                 <div class="bg-white/10 backdrop-blur rounded-lg p-4">
                     <div class="text-3xl font-bold">4,181</div>
                     <div class="text-sm opacity-80">Matches Analyzed</div>
                 </div>
                 <div class="bg-white/10 backdrop-blur rounded-lg p-4">
-                    <div class="text-3xl font-bold">4</div>
-                    <div class="text-sm opacity-80">Specialist Models</div>
+                    <div class="text-3xl font-bold">89</div>
+                    <div class="text-sm opacity-80">ML Features</div>
                 </div>
                 <div class="bg-white/10 backdrop-blur rounded-lg p-4">
-                    <div class="text-3xl font-bold">100%</div>
-                    <div class="text-sm opacity-80">Psychology Patterns</div>
+                    <div class="text-3xl font-bold">360</div>
+                    <div class="text-sm opacity-80">Real Fixtures</div>
                 </div>
             </div>
             
@@ -812,59 +812,33 @@
                     name: 'Elo Rating Advantage',
                     value: home.elo - away.elo,
                     description: `${home.name} has ${home.elo - away.elo > 0 ? 'higher' : 'lower'} Elo rating`,
-                    impact: Math.abs(home.elo - away.elo) > 50 ? 'High' : 'Medium',
-                    icon: 'trending-up'
+                    impact: Math.abs(home.elo - away.elo) > 50 ? 'High' : 'Medium'
                 },
                 {
                     name: 'Expected Goals (xG)',
                     value: (home.xg - away.xg).toFixed(1),
                     description: `${home.name} averages ${home.xg} xG vs ${away.xg} for ${away.name}`,
-                    impact: Math.abs(home.xg - away.xg) > 0.5 ? 'High' : 'Medium',
-                    icon: 'target'
+                    impact: Math.abs(home.xg - away.xg) > 0.5 ? 'High' : 'Medium'
                 },
                 {
-                    name: 'Psychological Momentum',
-                    value: prediction.psychAdvantage > 0 ? `+${prediction.psychAdvantage}` : prediction.psychAdvantage.toString(),
-                    description: `Mental state analysis based on recent form patterns`,
-                    impact: Math.abs(prediction.psychAdvantage) > 2 ? 'High' : 'Medium',
-                    icon: 'brain'
+                    name: 'Current Form',
+                    value: `${home.form} vs ${away.form}`,
+                    description: 'Recent 5-match form comparison',
+                    impact: 'Medium'
                 },
                 {
-                    name: prediction.isBig6Clash ? 'Big 6 Clash' : 'Home Advantage',
-                    value: prediction.isBig6Clash ? '🔥 High Intensity' : '+15%',
-                    description: prediction.isBig6Clash ? 'Top 6 teams clash - expect fireworks' : `${home.name} playing at ${home.stadium}`,
-                    impact: prediction.isBig6Clash ? 'High' : 'Medium',
-                    icon: prediction.isBig6Clash ? 'zap' : 'home'
-                },
-                {
-                    name: 'Win Streaks',
-                    value: prediction.streakInfo,
-                    description: 'Current winning momentum for both teams',
-                    impact: prediction.streakInfo.includes('3') || prediction.streakInfo.includes('4') || prediction.streakInfo.includes('5') ? 'High' : 'Low',
-                    icon: 'activity'
-                },
-                {
-                    name: 'Frankenstein Confidence',
-                    value: `${prediction.confidence}%`,
-                    description: 'Multi-specialist ensemble agreement with psychological analysis',
-                    impact: prediction.confidence > 70 ? 'Very High' : prediction.confidence > 55 ? 'High' : 'Medium',
-                    icon: 'gauge'
+                    name: 'Home Advantage',
+                    value: '+15%',
+                    description: `${home.name} playing at ${home.stadium}`,
+                    impact: 'Medium'
                 }
             ];
             
             document.getElementById('keyFactors').innerHTML = factors.map(factor => `
-                <div class="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-colors">
+                <div class="bg-gray-50 p-4 rounded-lg">
                     <div class="flex justify-between items-start mb-2">
-                        <div class="flex items-center">
-                            <i data-lucide="${factor.icon}" class="w-4 h-4 mr-2 text-purple-600"></i>
-                            <h4 class="font-semibold">${factor.name}</h4>
-                        </div>
-                        <span class="text-sm px-2 py-1 rounded ${
-                            factor.impact === 'Very High' ? 'bg-green-100 text-green-700' :
-                            factor.impact === 'High' ? 'bg-red-100 text-red-600' : 
-                            factor.impact === 'Medium' ? 'bg-yellow-100 text-yellow-600' : 
-                            'bg-gray-100 text-gray-600'
-                        }">
+                        <h4 class="font-semibold">${factor.name}</h4>
+                        <span class="text-sm px-2 py-1 rounded ${factor.impact === 'High' ? 'bg-red-100 text-red-600' : 'bg-yellow-100 text-yellow-600'}">
                             ${factor.impact}
                         </span>
                     </div>

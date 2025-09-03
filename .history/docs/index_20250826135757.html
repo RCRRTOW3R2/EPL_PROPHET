@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPL Prophet - AI Football Predictions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .match-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 15px;
+        }
+        .match-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        .prediction-badge {
+            font-size: 1.1rem;
+            padding: 8px 16px;
+            border-radius: 20px;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .stats-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .team-vs {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .confidence-bar {
+            height: 8px;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #ff4757 0%, #ffa502 50%, #2ed573 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-bg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fas fa-chart-line me-2"></i>EPL Prophet
+            </a>
+            <div class="navbar-nav ms-auto">
+                <span class="badge bg-success me-2">53.7% Accuracy</span>
+                <span class="badge bg-info">AI Powered</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg py-5">
+        <div class="container text-center text-white">
+            <h1 class="display-4 fw-bold mb-4">🏆 EPL Prophet</h1>
+            <p class="lead mb-4">AI-Powered Premier League Match Predictions with Explainable Results</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="stats-card p-4 mb-4">
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <h3 class="fw-bold">53.7%</h3>
+                                <small>Model Accuracy</small>
+                            </div>
+                            <div class="col-4">
+                                <h3 class="fw-bold">35</h3>
+                                <small>Teams Tracked</small>
+                            </div>
+                            <div class="col-4">
+                                <h3 class="fw-bold">89</h3>
+                                <small>ML Features</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Match Predictions -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">🔮 Upcoming Match Predictions</h2>
+                               <div class="text-center mb-8">
+                       <a href="showcase.html" class="inline-flex items-center px-8 py-4 bg-blue-600 text-white text-xl font-bold rounded-xl hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg">
+                           <i class="fas fa-brain mr-3"></i>
+                           Try Live AI Predictions →
+                       </a>
+                       <p class="text-gray-600 mt-4">Interactive showcase using real EPL data and your 53.7% accurate model</p>
+                   </div>
+                   <div class="row" id="matchGrid">
+                       <!-- Matches will be loaded here -->
+                   </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">🧠 How It Works</h2>
+            <div class="row">
+                <div class="col-md-3 text-center mb-4">
+                    <i class="fas fa-database feature-icon text-primary"></i>
+                    <h5>Rich Data</h5>
+                    <p>11 seasons of EPL data with Elo ratings, xG metrics, and form analysis</p>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <i class="fas fa-brain feature-icon text-success"></i>
+                    <h5>AI Models</h5>
+                    <p>Random Forest with logarithmic ratios and team-as-stocks indicators</p>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <i class="fas fa-search feature-icon text-warning"></i>
+                    <h5>Explainable</h5>
+                    <p>SHAP analysis explains every prediction with key contributing factors</p>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <i class="fas fa-chart-line feature-icon text-info"></i>
+                    <h5>Real-time</h5>
+                    <p>Dynamic predictions updated with latest team form and match data</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">Built with ❤️ for the beautiful game</p>
+            <p class="mb-0">
+                <a href="https://github.com/RCRRTOW3R2/EPL_PROPHET" class="text-white me-3">
+                    <i class="fab fa-github me-1"></i>View on GitHub
+                </a>
+                <span class="text-white-50">|</span>
+                <span class="ms-3">EPL Prophet - Making Football Predictions Transparent</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="predictions.js"></script>
+    <script>
+        // Sample predictions data (this would normally come from your API)
+        const samplePredictions = [
+            {
+                homeTeam: "Arsenal",
+                awayTeam: "Chelsea", 
+                date: "2025-08-27",
+                time: "15:00",
+                prediction: "Arsenal Win",
+                confidence: 68.5,
+                homeProb: 68.5,
+                drawProb: 20.2,
+                awayProb: 11.3,
+                keyFactors: [
+                    "Home advantage (+0.23)",
+                    "Elo rating advantage (+0.18)",
+                    "Better recent form (+0.15)",
+                    "xG efficiency (+0.12)"
+                ]
+            },
+            {
+                homeTeam: "Manchester City",
+                awayTeam: "Liverpool",
+                date: "2025-08-28",
+                time: "17:30", 
+                prediction: "Draw",
+                confidence: 45.2,
+                homeProb: 42.1,
+                drawProb: 45.2,
+                awayProb: 12.7,
+                keyFactors: [
+                    "Evenly matched Elo (+0.02)",
+                    "Similar recent form (+0.01)",
+                    "High-scoring match expected",
+                    "Historical H2H balance"
+                ]
+            },
+            {
+                homeTeam: "Newcastle",
+                awayTeam: "Aston Villa",
+                date: "2025-08-29",
+                time: "20:00",
+                prediction: "Newcastle Win", 
+                confidence: 72.3,
+                homeProb: 72.3,
+                drawProb: 18.4,
+                awayProb: 9.3,
+                keyFactors: [
+                    "Strong home record (+0.31)",
+                    "Villa's away struggles (-0.22)",
+                    "Key player availability (+0.14)",
+                    "Motivation advantage (+0.08)"
+                ]
+            }
+        ];
+
+        function renderMatches() {
+            const grid = document.getElementById('matchGrid');
+            
+            samplePredictions.forEach(match => {
+                const confidence = Math.round(match.confidence);
+                const confColor = confidence > 70 ? 'success' : confidence > 60 ? 'warning' : 'danger';
+                
+                const card = `
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card match-card h-100">
+                            <div class="card-header bg-${confColor} text-white">
+                                <small class="fw-bold">${match.date} • ${match.time}</small>
+                            </div>
+                            <div class="card-body">
+                                <div class="team-vs text-center">
+                                    ${match.homeTeam}
+                                    <div class="text-muted fs-6">vs</div>
+                                    ${match.awayTeam}
+                                </div>
+                                
+                                <div class="text-center mb-3">
+                                    <span class="prediction-badge badge bg-${confColor}">
+                                        ${match.prediction}
+                                    </span>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <small class="text-muted">Confidence</small>
+                                    <div class="confidence-bar mb-1"></div>
+                                    <div class="text-center">${confidence}%</div>
+                                </div>
+                                
+                                <div class="row text-center small mb-3">
+                                    <div class="col-4">
+                                        <div class="fw-bold">${Math.round(match.homeProb)}%</div>
+                                        <div class="text-muted">Home</div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="fw-bold">${Math.round(match.drawProb)}%</div>
+                                        <div class="text-muted">Draw</div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="fw-bold">${Math.round(match.awayProb)}%</div>
+                                        <div class="text-muted">Away</div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <small class="text-muted fw-bold">Key Factors:</small>
+                                    <ul class="list-unstyled small mt-1">
+                                        ${match.keyFactors.map(factor => `<li><i class="fas fa-check text-success me-1"></i>${factor}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                grid.innerHTML += card;
+            });
+        }
+
+        // Load matches when page loads
+        document.addEventListener('DOMContentLoaded', renderMatches);
+    </script>
+</body>
+</html> 

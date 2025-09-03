@@ -1,0 +1,694 @@
+{
+  "card_bias_analysis": {
+    "J Moss": {
+      "total_matches": 215,
+      "yellow_card_bias": -0.037,
+      "red_card_bias": -0.094,
+      "fouls_bias": -0.008,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 21.6,
+      "home_yellow_cards": 328,
+      "away_yellow_cards": 380,
+      "home_red_cards": 13,
+      "away_red_cards": 19,
+      "strictness_level": "Medium"
+    },
+    "M Jones": {
+      "total_matches": 79,
+      "yellow_card_bias": -0.029,
+      "red_card_bias": -0.3,
+      "fouls_bias": -0.008,
+      "avg_cards_per_match": 3.2,
+      "avg_fouls_per_match": 22.9,
+      "home_yellow_cards": 115,
+      "away_yellow_cards": 129,
+      "home_red_cards": 2,
+      "away_red_cards": 8,
+      "strictness_level": "Medium"
+    },
+    "M Dean": {
+      "total_matches": 224,
+      "yellow_card_bias": -0.002,
+      "red_card_bias": -0.217,
+      "fouls_bias": -0.01,
+      "avg_cards_per_match": 4.0,
+      "avg_fouls_per_match": 21.5,
+      "home_yellow_cards": 418,
+      "away_yellow_cards": 422,
+      "home_red_cards": 13,
+      "away_red_cards": 33,
+      "strictness_level": "Medium"
+    },
+    "C Pawson": {
+      "total_matches": 257,
+      "yellow_card_bias": -0.026,
+      "red_card_bias": -0.053,
+      "fouls_bias": -0.004,
+      "avg_cards_per_match": 3.8,
+      "avg_fouls_per_match": 22.6,
+      "home_yellow_cards": 449,
+      "away_yellow_cards": 499,
+      "home_red_cards": 17,
+      "away_red_cards": 21,
+      "strictness_level": "Medium"
+    },
+    "A Taylor": {
+      "total_matches": 325,
+      "yellow_card_bias": -0.005,
+      "red_card_bias": 0.095,
+      "fouls_bias": 0.005,
+      "avg_cards_per_match": 3.7,
+      "avg_fouls_per_match": 21.3,
+      "home_yellow_cards": 573,
+      "away_yellow_cards": 585,
+      "home_red_cards": 25,
+      "away_red_cards": 17,
+      "strictness_level": "Medium"
+    },
+    "N Swarbrick": {
+      "total_matches": 81,
+      "yellow_card_bias": 0.018,
+      "red_card_bias": 0.071,
+      "fouls_bias": -0.012,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 20.3,
+      "home_yellow_cards": 141,
+      "away_yellow_cards": 131,
+      "home_red_cards": 4,
+      "away_red_cards": 3,
+      "strictness_level": "Medium"
+    },
+    "C Foy": {
+      "total_matches": 15,
+      "yellow_card_bias": -0.053,
+      "red_card_bias": -0.3,
+      "fouls_bias": -0.009,
+      "avg_cards_per_match": 3.5,
+      "avg_fouls_per_match": 22.8,
+      "home_yellow_cards": 21,
+      "away_yellow_cards": 26,
+      "home_red_cards": 1,
+      "away_red_cards": 4,
+      "strictness_level": "Medium"
+    },
+    "M Clattenburg": {
+      "total_matches": 79,
+      "yellow_card_bias": -0.05,
+      "red_card_bias": 0.0,
+      "fouls_bias": 0.001,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 22.4,
+      "home_yellow_cards": 116,
+      "away_yellow_cards": 142,
+      "home_red_cards": 6,
+      "away_red_cards": 6,
+      "strictness_level": "Medium"
+    },
+    "M Atkinson": {
+      "total_matches": 229,
+      "yellow_card_bias": -0.037,
+      "red_card_bias": -0.077,
+      "fouls_bias": -0.025,
+      "avg_cards_per_match": 3.3,
+      "avg_fouls_per_match": 20.7,
+      "home_yellow_cards": 334,
+      "away_yellow_cards": 387,
+      "home_red_cards": 11,
+      "away_red_cards": 15,
+      "strictness_level": "Medium"
+    },
+    "M Oliver": {
+      "total_matches": 312,
+      "yellow_card_bias": -0.017,
+      "red_card_bias": -0.022,
+      "fouls_bias": -0.005,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 21.7,
+      "home_yellow_cards": 494,
+      "away_yellow_cards": 528,
+      "home_red_cards": 22,
+      "away_red_cards": 24,
+      "strictness_level": "Medium"
+    },
+    "L Mason": {
+      "total_matches": 130,
+      "yellow_card_bias": -0.028,
+      "red_card_bias": -0.033,
+      "fouls_bias": -0.02,
+      "avg_cards_per_match": 3.0,
+      "avg_fouls_per_match": 22.1,
+      "home_yellow_cards": 179,
+      "away_yellow_cards": 200,
+      "home_red_cards": 7,
+      "away_red_cards": 8,
+      "strictness_level": "Medium"
+    },
+    "K Friend": {
+      "total_matches": 179,
+      "yellow_card_bias": 0.0,
+      "red_card_bias": -0.079,
+      "fouls_bias": -0.001,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 20.9,
+      "home_yellow_cards": 298,
+      "away_yellow_cards": 298,
+      "home_red_cards": 8,
+      "away_red_cards": 11,
+      "strictness_level": "Medium"
+    },
+    "R East": {
+      "total_matches": 81,
+      "yellow_card_bias": -0.054,
+      "red_card_bias": -0.071,
+      "fouls_bias": -0.014,
+      "avg_cards_per_match": 3.3,
+      "avg_fouls_per_match": 22.8,
+      "home_yellow_cards": 115,
+      "away_yellow_cards": 143,
+      "home_red_cards": 3,
+      "away_red_cards": 4,
+      "strictness_level": "Medium"
+    },
+    "R Madley": {
+      "total_matches": 87,
+      "yellow_card_bias": -0.025,
+      "red_card_bias": 0.0,
+      "fouls_bias": -0.031,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 22.2,
+      "home_yellow_cards": 134,
+      "away_yellow_cards": 148,
+      "home_red_cards": 5,
+      "away_red_cards": 5,
+      "strictness_level": "Medium"
+    },
+    "P Tierney": {
+      "total_matches": 183,
+      "yellow_card_bias": -0.025,
+      "red_card_bias": 0.079,
+      "fouls_bias": -0.003,
+      "avg_cards_per_match": 3.5,
+      "avg_fouls_per_match": 22.2,
+      "home_yellow_cards": 296,
+      "away_yellow_cards": 327,
+      "home_red_cards": 11,
+      "away_red_cards": 8,
+      "strictness_level": "Medium"
+    },
+    "P Dowd": {
+      "total_matches": 21,
+      "yellow_card_bias": -0.065,
+      "red_card_bias": 0.0,
+      "fouls_bias": -0.02,
+      "avg_cards_per_match": 4.6,
+      "avg_fouls_per_match": 25.1,
+      "home_yellow_cards": 40,
+      "away_yellow_cards": 52,
+      "home_red_cards": 2,
+      "away_red_cards": 2,
+      "strictness_level": "High"
+    },
+    "A Marriner": {
+      "total_matches": 208,
+      "yellow_card_bias": -0.016,
+      "red_card_bias": -0.024,
+      "fouls_bias": -0.006,
+      "avg_cards_per_match": 3.2,
+      "avg_fouls_per_match": 18.9,
+      "home_yellow_cards": 310,
+      "away_yellow_cards": 330,
+      "home_red_cards": 10,
+      "away_red_cards": 11,
+      "strictness_level": "Medium"
+    },
+    "S Attwell": {
+      "total_matches": 175,
+      "yellow_card_bias": -0.019,
+      "red_card_bias": -0.31,
+      "fouls_bias": 0.005,
+      "avg_cards_per_match": 3.7,
+      "avg_fouls_per_match": 20.3,
+      "home_yellow_cards": 304,
+      "away_yellow_cards": 328,
+      "home_red_cards": 4,
+      "away_red_cards": 17,
+      "strictness_level": "Medium"
+    },
+    "G Scott": {
+      "total_matches": 105,
+      "yellow_card_bias": -0.044,
+      "red_card_bias": 0.056,
+      "fouls_bias": -0.035,
+      "avg_cards_per_match": 2.8,
+      "avg_fouls_per_match": 20.1,
+      "home_yellow_cards": 128,
+      "away_yellow_cards": 153,
+      "home_red_cards": 10,
+      "away_red_cards": 8,
+      "strictness_level": "Low"
+    },
+    "L Probert": {
+      "total_matches": 43,
+      "yellow_card_bias": -0.024,
+      "red_card_bias": -0.167,
+      "fouls_bias": 0.013,
+      "avg_cards_per_match": 2.6,
+      "avg_fouls_per_match": 20.0,
+      "home_yellow_cards": 49,
+      "away_yellow_cards": 54,
+      "home_red_cards": 3,
+      "away_red_cards": 6,
+      "strictness_level": "Low"
+    },
+    "S Hooper": {
+      "total_matches": 125,
+      "yellow_card_bias": -0.049,
+      "red_card_bias": 0.125,
+      "fouls_bias": -0.007,
+      "avg_cards_per_match": 3.7,
+      "avg_fouls_per_match": 21.5,
+      "home_yellow_cards": 203,
+      "away_yellow_cards": 247,
+      "home_red_cards": 5,
+      "away_red_cards": 3,
+      "strictness_level": "Medium"
+    },
+    "C Kavanagh": {
+      "total_matches": 163,
+      "yellow_card_bias": -0.03,
+      "red_card_bias": 0.079,
+      "fouls_bias": -0.004,
+      "avg_cards_per_match": 3.6,
+      "avg_fouls_per_match": 21.0,
+      "home_yellow_cards": 263,
+      "away_yellow_cards": 297,
+      "home_red_cards": 11,
+      "away_red_cards": 8,
+      "strictness_level": "Medium"
+    },
+    "D Coote": {
+      "total_matches": 112,
+      "yellow_card_bias": -0.023,
+      "red_card_bias": -0.115,
+      "fouls_bias": -0.016,
+      "avg_cards_per_match": 4.0,
+      "avg_fouls_per_match": 23.5,
+      "home_yellow_cards": 206,
+      "away_yellow_cards": 226,
+      "home_red_cards": 5,
+      "away_red_cards": 8,
+      "strictness_level": "Medium"
+    },
+    "A Madley": {
+      "total_matches": 112,
+      "yellow_card_bias": -0.068,
+      "red_card_bias": 0.1,
+      "fouls_bias": -0.02,
+      "avg_cards_per_match": 3.4,
+      "avg_fouls_per_match": 23.1,
+      "home_yellow_cards": 161,
+      "away_yellow_cards": 212,
+      "home_red_cards": 6,
+      "away_red_cards": 4,
+      "strictness_level": "Medium"
+    },
+    "P Bankes": {
+      "total_matches": 93,
+      "yellow_card_bias": -0.072,
+      "red_card_bias": -0.1,
+      "fouls_bias": -0.016,
+      "avg_cards_per_match": 4.1,
+      "avg_fouls_per_match": 21.5,
+      "home_yellow_cards": 158,
+      "away_yellow_cards": 211,
+      "home_red_cards": 4,
+      "away_red_cards": 6,
+      "strictness_level": "Medium"
+    },
+    "T Robinson": {
+      "total_matches": 40,
+      "yellow_card_bias": -0.048,
+      "red_card_bias": 0.0,
+      "fouls_bias": -0.003,
+      "avg_cards_per_match": 4.2,
+      "avg_fouls_per_match": 23.3,
+      "home_yellow_cards": 76,
+      "away_yellow_cards": 92,
+      "home_red_cards": 1,
+      "away_red_cards": 1,
+      "strictness_level": "Medium"
+    },
+    "R Jones": {
+      "total_matches": 92,
+      "yellow_card_bias": -0.091,
+      "red_card_bias": 0.045,
+      "fouls_bias": -0.009,
+      "avg_cards_per_match": 3.9,
+      "avg_fouls_per_match": 22.9,
+      "home_yellow_cards": 143,
+      "away_yellow_cards": 207,
+      "home_red_cards": 6,
+      "away_red_cards": 5,
+      "strictness_level": "Medium"
+    },
+    "D England": {
+      "total_matches": 76,
+      "yellow_card_bias": -0.088,
+      "red_card_bias": 0.125,
+      "fouls_bias": -0.02,
+      "avg_cards_per_match": 4.0,
+      "avg_fouls_per_match": 21.8,
+      "home_yellow_cards": 122,
+      "away_yellow_cards": 174,
+      "home_red_cards": 5,
+      "away_red_cards": 3,
+      "strictness_level": "Medium"
+    },
+    "J Gillett": {
+      "total_matches": 62,
+      "yellow_card_bias": 0.002,
+      "red_card_bias": -0.167,
+      "fouls_bias": 0.011,
+      "avg_cards_per_match": 3.8,
+      "avg_fouls_per_match": 20.1,
+      "home_yellow_cards": 118,
+      "away_yellow_cards": 117,
+      "home_red_cards": 1,
+      "away_red_cards": 2,
+      "strictness_level": "Medium"
+    },
+    "M Salisbury": {
+      "total_matches": 47,
+      "yellow_card_bias": -0.023,
+      "red_card_bias": 0.0,
+      "fouls_bias": -0.012,
+      "avg_cards_per_match": 3.9,
+      "avg_fouls_per_match": 23.0,
+      "home_yellow_cards": 83,
+      "away_yellow_cards": 91,
+      "home_red_cards": 4,
+      "away_red_cards": 4,
+      "strictness_level": "Medium"
+    },
+    "J Brooks": {
+      "total_matches": 62,
+      "yellow_card_bias": 0.033,
+      "red_card_bias": -0.167,
+      "fouls_bias": -0.007,
+      "avg_cards_per_match": 4.5,
+      "avg_fouls_per_match": 21.9,
+      "home_yellow_cards": 147,
+      "away_yellow_cards": 129,
+      "home_red_cards": 2,
+      "away_red_cards": 4,
+      "strictness_level": "High"
+    },
+    "T Harrington": {
+      "total_matches": 37,
+      "yellow_card_bias": -0.047,
+      "red_card_bias": 0.25,
+      "fouls_bias": -0.033,
+      "avg_cards_per_match": 3.9,
+      "avg_fouls_per_match": 22.2,
+      "home_yellow_cards": 63,
+      "away_yellow_cards": 76,
+      "home_red_cards": 3,
+      "away_red_cards": 1,
+      "strictness_level": "Medium"
+    },
+    "T Bramall": {
+      "total_matches": 30,
+      "yellow_card_bias": -0.035,
+      "red_card_bias": -0.071,
+      "fouls_bias": -0.025,
+      "avg_cards_per_match": 4.0,
+      "avg_fouls_per_match": 23.0,
+      "home_yellow_cards": 53,
+      "away_yellow_cards": 61,
+      "home_red_cards": 3,
+      "away_red_cards": 4,
+      "strictness_level": "Medium"
+    },
+    "D Bond": {
+      "total_matches": 23,
+      "yellow_card_bias": -0.081,
+      "red_card_bias": 0.0,
+      "fouls_bias": 0.011,
+      "avg_cards_per_match": 4.2,
+      "avg_fouls_per_match": 21.5,
+      "home_yellow_cards": 39,
+      "away_yellow_cards": 54,
+      "home_red_cards": 2,
+      "away_red_cards": 2,
+      "strictness_level": "Medium"
+    },
+    "S Barrott": {
+      "total_matches": 38,
+      "yellow_card_bias": -0.049,
+      "red_card_bias": 0.0,
+      "fouls_bias": 0.001,
+      "avg_cards_per_match": 4.1,
+      "avg_fouls_per_match": 20.7,
+      "home_yellow_cards": 69,
+      "away_yellow_cards": 84,
+      "home_red_cards": 1,
+      "away_red_cards": 1,
+      "strictness_level": "Medium"
+    }
+  },
+  "team_specific_bias": {
+    "M Oliver": {
+      "Arsenal": {
+        "matches_with_ref": 46,
+        "win_rate_with_ref": 0.478,
+        "overall_win_rate": 0.557,
+        "bias_effect": -0.079
+      },
+      "Chelsea": {
+        "matches_with_ref": 38,
+        "win_rate_with_ref": 0.395,
+        "overall_win_rate": 0.524,
+        "bias_effect": -0.129
+      },
+      "Liverpool": {
+        "matches_with_ref": 46,
+        "win_rate_with_ref": 0.457,
+        "overall_win_rate": 0.61,
+        "bias_effect": -0.154
+      },
+      "Tottenham": {
+        "matches_with_ref": 37,
+        "win_rate_with_ref": 0.514,
+        "overall_win_rate": 0.514,
+        "bias_effect": -0.001
+      }
+    },
+    "A Taylor": {
+      "Arsenal": {
+        "matches_with_ref": 44,
+        "win_rate_with_ref": 0.523,
+        "overall_win_rate": 0.557,
+        "bias_effect": -0.035
+      },
+      "Chelsea": {
+        "matches_with_ref": 40,
+        "win_rate_with_ref": 0.5,
+        "overall_win_rate": 0.524,
+        "bias_effect": -0.024
+      },
+      "Liverpool": {
+        "matches_with_ref": 52,
+        "win_rate_with_ref": 0.519,
+        "overall_win_rate": 0.61,
+        "bias_effect": -0.091
+      },
+      "Tottenham": {
+        "matches_with_ref": 40,
+        "win_rate_with_ref": 0.525,
+        "overall_win_rate": 0.514,
+        "bias_effect": 0.011
+      }
+    },
+    "P Tierney": {
+      "Arsenal": {
+        "matches_with_ref": 18,
+        "win_rate_with_ref": 0.444,
+        "overall_win_rate": 0.557,
+        "bias_effect": -0.113
+      },
+      "Chelsea": {
+        "matches_with_ref": 18,
+        "win_rate_with_ref": 0.722,
+        "overall_win_rate": 0.524,
+        "bias_effect": 0.198
+      },
+      "Liverpool": {
+        "matches_with_ref": 28,
+        "win_rate_with_ref": 0.643,
+        "overall_win_rate": 0.61,
+        "bias_effect": 0.033
+      },
+      "Tottenham": {
+        "matches_with_ref": 18,
+        "win_rate_with_ref": 0.222,
+        "overall_win_rate": 0.514,
+        "bias_effect": -0.292
+      }
+    },
+    "M Atkinson": {
+      "Arsenal": {
+        "matches_with_ref": 28,
+        "win_rate_with_ref": 0.393,
+        "overall_win_rate": 0.557,
+        "bias_effect": -0.165
+      },
+      "Chelsea": {
+        "matches_with_ref": 26,
+        "win_rate_with_ref": 0.423,
+        "overall_win_rate": 0.524,
+        "bias_effect": -0.101
+      },
+      "Liverpool": {
+        "matches_with_ref": 30,
+        "win_rate_with_ref": 0.6,
+        "overall_win_rate": 0.61,
+        "bias_effect": -0.01
+      },
+      "Tottenham": {
+        "matches_with_ref": 22,
+        "win_rate_with_ref": 0.455,
+        "overall_win_rate": 0.514,
+        "bias_effect": -0.06
+      }
+    },
+    "S Attwell": {
+      "Arsenal": {
+        "matches_with_ref": 15,
+        "win_rate_with_ref": 0.4,
+        "overall_win_rate": 0.557,
+        "bias_effect": -0.157
+      },
+      "Chelsea": {
+        "matches_with_ref": 22,
+        "win_rate_with_ref": 0.318,
+        "overall_win_rate": 0.524,
+        "bias_effect": -0.206
+      },
+      "Liverpool": {
+        "matches_with_ref": 19,
+        "win_rate_with_ref": 0.789,
+        "overall_win_rate": 0.61,
+        "bias_effect": 0.179
+      },
+      "Tottenham": {
+        "matches_with_ref": 13,
+        "win_rate_with_ref": 0.769,
+        "overall_win_rate": 0.514,
+        "bias_effect": 0.255
+      }
+    }
+  },
+  "comprehensive_insights": {
+    "card_bias_ranking": [
+      {
+        "referee": "C Foy",
+        "yellow_bias": -0.053,
+        "red_bias": -0.3,
+        "total_bias_score": 0.353
+      },
+      {
+        "referee": "M Jones",
+        "yellow_bias": -0.029,
+        "red_bias": -0.3,
+        "total_bias_score": 0.329
+      },
+      {
+        "referee": "S Attwell",
+        "yellow_bias": -0.019,
+        "red_bias": -0.31,
+        "total_bias_score": 0.329
+      },
+      {
+        "referee": "T Harrington",
+        "yellow_bias": -0.047,
+        "red_bias": 0.25,
+        "total_bias_score": 0.297
+      },
+      {
+        "referee": "M Dean",
+        "yellow_bias": -0.002,
+        "red_bias": -0.217,
+        "total_bias_score": 0.219
+      },
+      {
+        "referee": "D England",
+        "yellow_bias": -0.088,
+        "red_bias": 0.125,
+        "total_bias_score": 0.213
+      },
+      {
+        "referee": "J Brooks",
+        "yellow_bias": 0.033,
+        "red_bias": -0.167,
+        "total_bias_score": 0.2
+      },
+      {
+        "referee": "L Probert",
+        "yellow_bias": -0.024,
+        "red_bias": -0.167,
+        "total_bias_score": 0.191
+      },
+      {
+        "referee": "S Hooper",
+        "yellow_bias": -0.049,
+        "red_bias": 0.125,
+        "total_bias_score": 0.174
+      },
+      {
+        "referee": "P Bankes",
+        "yellow_bias": -0.072,
+        "red_bias": -0.1,
+        "total_bias_score": 0.172
+      }
+    ],
+    "team_bias_patterns": {},
+    "multi_dimensional_bias": {
+      "M Oliver": {
+        "win_rate_bias": -0.037,
+        "card_bias": -0.017,
+        "fouls_bias": -0.005,
+        "total_bias_score": 0.059
+      },
+      "A Taylor": {
+        "win_rate_bias": -0.032,
+        "card_bias": -0.005,
+        "fouls_bias": 0.005,
+        "total_bias_score": 0.041999999999999996
+      },
+      "P Tierney": {
+        "win_rate_bias": -0.056,
+        "card_bias": -0.025,
+        "fouls_bias": -0.003,
+        "total_bias_score": 0.084
+      },
+      "M Atkinson": {
+        "win_rate_bias": -0.045,
+        "card_bias": -0.037,
+        "fouls_bias": -0.025,
+        "total_bias_score": 0.10699999999999998
+      },
+      "S Attwell": {
+        "win_rate_bias": -0.003,
+        "card_bias": -0.019,
+        "fouls_bias": 0.005,
+        "total_bias_score": 0.027
+      }
+    }
+  },
+  "methodology": {
+    "win_rate_bias": "Difference from 46% EPL home win average",
+    "card_bias": "Ratio of home vs away cards (0.5 = neutral)",
+    "team_bias": "Team win rate with referee vs overall win rate",
+    "sample_sizes": "Minimum 10-15 matches per referee"
+  }
+}

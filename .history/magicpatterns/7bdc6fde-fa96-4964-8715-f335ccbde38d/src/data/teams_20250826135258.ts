@@ -1,0 +1,122 @@
+// Real EPL teams with actual Elo ratings from EPL Prophet ML model (53.7% accuracy)
+export const eplTeams = [{
+  id: 'liverpool',
+  name: 'Liverpool',
+  elo: 1626,
+  xg: 2.1,
+  form: 'W-W-D-W-W'
+}, {
+  id: 'mancity',
+  name: 'Manchester City', 
+  elo: 1623,
+  xg: 2.3,
+  form: 'W-W-W-D-W'
+}, {
+  id: 'arsenal',
+  name: 'Arsenal',
+  elo: 1621,
+  xg: 2.0,
+  form: 'W-D-W-W-L'
+}, {
+  id: 'chelsea',
+  name: 'Chelsea',
+  elo: 1577,
+  xg: 1.8,
+  form: 'W-L-W-D-W'
+}, {
+  id: 'astonvilla',
+  name: 'Aston Villa',
+  elo: 1571,
+  xg: 1.7,
+  form: 'D-W-W-L-W'
+}, {
+  id: 'newcastle',
+  name: 'Newcastle',
+  elo: 1564,
+  xg: 1.6,
+  form: 'L-W-D-W-D'
+}, {
+  id: 'crystalpalace',
+  name: 'Crystal Palace',
+  elo: 1556,
+  xg: 1.4,
+  form: 'D-L-W-D-L'
+}, {
+  id: 'brighton',
+  name: 'Brighton',
+  elo: 1551,
+  xg: 1.5,
+  form: 'W-D-L-W-D'
+}, {
+  id: 'nottforest',
+  name: 'Nottingham Forest',
+  elo: 1544,
+  xg: 1.3,
+  form: 'W-W-L-D-W'
+}, {
+  id: 'brentford',
+  name: 'Brentford',
+  elo: 1524,
+  xg: 1.4,
+  form: 'D-W-L-W-L'
+}, {
+  id: 'everton',
+  name: 'Everton',
+  elo: 1523,
+  xg: 1.2,
+  form: 'L-D-L-W-D'
+}, {
+  id: 'fulham',
+  name: 'Fulham',
+  elo: 1520,
+  xg: 1.5,
+  form: 'W-D-W-L-D'
+}, {
+  id: 'bournemouth',
+  name: 'Bournemouth',
+  elo: 1518,
+  xg: 1.3,
+  form: 'L-W-D-L-W'
+}, {
+  id: 'westham',
+  name: 'West Ham',
+  elo: 1490,
+  xg: 1.2,
+  form: 'L-L-D-W-L'
+}, {
+  id: 'wolves',
+  name: 'Wolves',
+  elo: 1478,
+  xg: 1.1,
+  form: 'L-D-L-L-W'
+}, {
+  id: 'tottenham',
+  name: 'Tottenham',
+  elo: 1470,
+  xg: 1.6,
+  form: 'W-L-W-L-D'
+}, {
+  id: 'manutd',
+  name: 'Manchester United',
+  elo: 1465,
+  xg: 1.4,
+  form: 'L-W-D-L-W'
+}, {
+  id: 'ipswich',
+  name: 'Ipswich',
+  elo: 1450,
+  xg: 1.0,
+  form: 'L-L-D-L-D'
+}, {
+  id: 'leicester',
+  name: 'Leicester',
+  elo: 1445,
+  xg: 1.1,
+  form: 'D-L-L-W-L'
+}, {
+  id: 'southampton',
+  name: 'Southampton',
+  elo: 1440,
+  xg: 0.9,
+  form: 'L-L-L-D-L'
+}];
