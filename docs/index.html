@@ -27,7 +27,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
                 <div class="bg-white/10 backdrop-blur rounded-lg p-4">
                     <div class="text-3xl font-bold">50.4%</div>
-                    <div class="text-sm opacity-80">Frankenstein Accuracy</div>
+                    <div class="text-sm opacity-80">Historical Accuracy</div>
                 </div>
                 <div class="bg-white/10 backdrop-blur rounded-lg p-4">
                     <div class="text-3xl font-bold">4,181</div>
@@ -38,8 +38,8 @@
                     <div class="text-sm opacity-80">Specialist Models</div>
                 </div>
                 <div class="bg-white/10 backdrop-blur rounded-lg p-4">
-                    <div class="text-3xl font-bold">100%</div>
-                    <div class="text-sm opacity-80">Psychology Patterns</div>
+                    <div class="text-3xl font-bold">25-85%</div>
+                    <div class="text-sm opacity-80">Confidence Range</div>
                 </div>
             </div>
             
@@ -413,23 +413,39 @@
                                 </div>
                             </div>
                             
-                            <!-- Model Stats -->
-                            <div class="border-t pt-6">
-                                <div class="grid grid-cols-3 gap-4 text-center">
-                                    <div>
-                                        <div class="text-2xl font-bold text-purple-600">53.7%</div>
-                                        <div class="text-sm text-gray-600">Model Accuracy</div>
-                                    </div>
-                                    <div>
-                                        <div class="text-2xl font-bold text-green-600" id="confidence">78%</div>
-                                        <div class="text-sm text-gray-600">Confidence</div>
-                                    </div>
-                                    <div>
-                                        <div class="text-2xl font-bold text-blue-600">89</div>
-                                        <div class="text-sm text-gray-600">Features</div>
-                                    </div>
-                                </div>
-                            </div>
+                                        <!-- Model Stats -->
+            <div class="border-t pt-6">
+                <div class="grid grid-cols-3 gap-4 text-center">
+                    <div>
+                        <div class="text-2xl font-bold text-purple-600">50.4%</div>
+                        <div class="text-sm text-gray-600">Historical Accuracy</div>
+                        <div class="text-xs text-gray-500 mt-1">All past matches</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-green-600" id="confidence">78%</div>
+                        <div class="text-sm text-gray-600">This Match Confidence</div>
+                        <div class="text-xs text-gray-500 mt-1">How sure we are NOW</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-blue-600">4</div>
+                        <div class="text-sm text-gray-600">Specialists</div>
+                        <div class="text-xs text-gray-500 mt-1">Ensemble models</div>
+                    </div>
+                </div>
+                
+                <!-- Explanation -->
+                <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4">
+                    <div class="flex items-start">
+                        <i data-lucide="info" class="w-5 h-5 text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
+                        <div class="text-sm text-blue-800">
+                            <strong>Understanding the difference:</strong><br>
+                            <strong>Historical Accuracy (50.4%)</strong> = Our batting average across thousands of past matches<br>
+                            <strong>This Match Confidence</strong> = How certain we are about THIS specific prediction<br>
+                            <em>High confidence + medium accuracy is normal - football is unpredictable!</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
                         </div>
                     </div>
                 </div>
