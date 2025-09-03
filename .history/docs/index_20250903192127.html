@@ -452,8 +452,8 @@
                     </div>
                     
                     <!-- Prediction Results -->
-                    <div class="bg-white dark:bg-dark-card rounded-xl shadow-lg p-8">
-                        <h3 class="text-2xl font-bold mb-6 flex items-center text-gray-900 dark:text-white">
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <h3 class="text-2xl font-bold mb-6 flex items-center">
                             <i data-lucide="pie-chart" class="w-6 h-6 mr-2 text-green-600"></i>
                             AI Prediction Results
                         </h3>
@@ -462,30 +462,30 @@
                             <!-- Probabilities -->
                             <div class="space-y-4">
                                 <div class="flex justify-between items-center">
-                                    <span class="font-medium text-gray-700 dark:text-gray-300">Home Win</span>
+                                    <span class="font-medium">Home Win</span>
                                     <div class="flex items-center">
-                                        <div class="w-32 h-4 bg-gray-200 dark:bg-gray-600 rounded-full mr-3">
+                                        <div class="w-32 h-4 bg-gray-200 rounded-full mr-3">
                                             <div id="homeWinBar" class="h-4 bg-blue-500 rounded-full" style="width: 45%"></div>
                                         </div>
-                                        <span id="homeWinPercent" class="font-bold text-gray-900 dark:text-white">45%</span>
+                                        <span id="homeWinPercent" class="font-bold">45%</span>
                                     </div>
                                 </div>
                                 <div class="flex justify-between items-center">
-                                    <span class="font-medium text-gray-700 dark:text-gray-300">Draw</span>
+                                    <span class="font-medium">Draw</span>
                                     <div class="flex items-center">
-                                        <div class="w-32 h-4 bg-gray-200 dark:bg-gray-600 rounded-full mr-3">
+                                        <div class="w-32 h-4 bg-gray-200 rounded-full mr-3">
                                             <div id="drawBar" class="h-4 bg-yellow-500 rounded-full" style="width: 27%"></div>
                                         </div>
-                                        <span id="drawPercent" class="font-bold text-gray-900 dark:text-white">27%</span>
+                                        <span id="drawPercent" class="font-bold">27%</span>
                                     </div>
                                 </div>
                                 <div class="flex justify-between items-center">
-                                    <span class="font-medium text-gray-700 dark:text-gray-300">Away Win</span>
+                                    <span class="font-medium">Away Win</span>
                                     <div class="flex items-center">
-                                        <div class="w-32 h-4 bg-gray-200 dark:bg-gray-600 rounded-full mr-3">
+                                        <div class="w-32 h-4 bg-gray-200 rounded-full mr-3">
                                             <div id="awayWinBar" class="h-4 bg-red-500 rounded-full" style="width: 28%"></div>
                                         </div>
-                                        <span id="awayWinPercent" class="font-bold text-gray-900 dark:text-white">28%</span>
+                                        <span id="awayWinPercent" class="font-bold">28%</span>
                                     </div>
                                 </div>
                             </div>
@@ -529,26 +529,26 @@
                 <div class="grid grid-cols-3 gap-4 text-center">
                     <div>
                         <div class="text-2xl font-bold text-purple-600">50.4%</div>
-                        <div class="text-sm text-gray-600 dark:text-gray-400">Historical Accuracy</div>
-                        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">All past matches</div>
+                        <div class="text-sm text-gray-600">Historical Accuracy</div>
+                        <div class="text-xs text-gray-500 mt-1">All past matches</div>
                     </div>
                     <div>
                         <div class="text-2xl font-bold text-green-600" id="confidence">78%</div>
-                        <div class="text-sm text-gray-600 dark:text-gray-400">This Match Confidence</div>
-                        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">How sure we are NOW</div>
+                        <div class="text-sm text-gray-600">This Match Confidence</div>
+                        <div class="text-xs text-gray-500 mt-1">How sure we are NOW</div>
                     </div>
                     <div>
                         <div class="text-2xl font-bold text-blue-600">4</div>
-                        <div class="text-sm text-gray-600 dark:text-gray-400">Specialists</div>
-                        <div class="text-xs text-gray-500 dark:text-gray-500 mt-1">Ensemble models</div>
+                        <div class="text-sm text-gray-600">Specialists</div>
+                        <div class="text-xs text-gray-500 mt-1">Ensemble models</div>
                     </div>
                 </div>
                 
                 <!-- Explanation -->
-                <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4 mt-4">
+                <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4">
                     <div class="flex items-start">
                         <i data-lucide="info" class="w-5 h-5 text-blue-600 mr-2 mt-1 flex-shrink-0"></i>
-                        <div class="text-sm text-blue-800 dark:text-blue-200">
+                        <div class="text-sm text-blue-800">
                             <strong>Understanding the difference:</strong><br>
                             <strong>Historical Accuracy (50.4%)</strong> = Our batting average across thousands of past matches<br>
                             <strong>This Match Confidence</strong> = How certain we are about THIS specific prediction<br>

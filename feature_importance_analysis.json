@@ -1,0 +1,160 @@
+{
+  "random_forest_top10": [
+    {
+      "feature": "log_goals_ratio",
+      "importance": 0.0918040759750896
+    },
+    {
+      "feature": "log_defense_ratio",
+      "importance": 0.08703287379159359
+    },
+    {
+      "feature": "log_attack_defense",
+      "importance": 0.0855712662743503
+    },
+    {
+      "feature": "goal_diff_advantage",
+      "importance": 0.07805101712294096
+    },
+    {
+      "feature": "ppg_difference",
+      "importance": 0.07340583340789371
+    },
+    {
+      "feature": "momentum_advantage",
+      "importance": 0.06530804403541354
+    },
+    {
+      "feature": "away_goals_avg",
+      "importance": 0.06329332048199116
+    },
+    {
+      "feature": "away_conceded_avg",
+      "importance": 0.05942647711504943
+    },
+    {
+      "feature": "home_ppg",
+      "importance": 0.058817521358474976
+    },
+    {
+      "feature": "away_ppg",
+      "importance": 0.05716206010278868
+    }
+  ],
+  "individual_feature_accuracy": [
+    [
+      "goal_diff_advantage",
+      0.5087719298245614
+    ],
+    [
+      "ppg_difference",
+      0.5057471264367815
+    ],
+    [
+      "log_goals_ratio",
+      0.4942528735632184
+    ],
+    [
+      "momentum_advantage",
+      0.48941318814277074
+    ],
+    [
+      "away_goals_avg",
+      0.48578342407743497
+    ],
+    [
+      "log_defense_ratio",
+      0.4785238959467635
+    ],
+    [
+      "home_ppg",
+      0.4724742891712039
+    ],
+    [
+      "away_ppg",
+      0.4670296430732002
+    ],
+    [
+      "log_attack_defense",
+      0.46279491833030856
+    ],
+    [
+      "away_conceded_avg",
+      0.45493042952208107
+    ]
+  ],
+  "feature_set_performance": {
+    "All Features": {
+      "mean": 0.47610405323653965,
+      "std": 0.023020323763388324,
+      "features": 19
+    },
+    "Top 10 RF": {
+      "mean": 0.45372050816696907,
+      "std": 0.03167822737225904,
+      "features": 10
+    },
+    "Top 10 MI": {
+      "mean": 0.4676346037507562,
+      "std": 0.01864614035985777,
+      "features": 10
+    },
+    "Basic Features": {
+      "mean": 0.4458560193587417,
+      "std": 0.015208475607957074,
+      "features": 7
+    },
+    "Ratio Features": {
+      "mean": 0.43859649122807015,
+      "std": 0.018108444703080158,
+      "features": 3
+    },
+    "Psychological": {
+      "mean": 0.4319419237749546,
+      "std": 0.021371472150823582,
+      "features": 8
+    }
+  },
+  "accuracy_correlations": [
+    [
+      "log_attack_defense",
+      0.1263525870793948
+    ],
+    [
+      "home_goals_avg",
+      0.12260891042164797
+    ],
+    [
+      "home_big_wins",
+      0.12206468972553342
+    ],
+    [
+      "home_win_streak",
+      0.11007310925677667
+    ],
+    [
+      "home_ppg",
+      0.10427339654189394
+    ],
+    [
+      "goal_diff_advantage",
+      0.10184871659448984
+    ],
+    [
+      "home_conceded_avg",
+      -0.09277802491108227
+    ],
+    [
+      "log_defense_ratio",
+      0.08752441588573016
+    ],
+    [
+      "ppg_difference",
+      0.07887043436344102
+    ],
+    [
+      "momentum_advantage",
+      0.07841262770674846
+    ]
+  ]
+}
